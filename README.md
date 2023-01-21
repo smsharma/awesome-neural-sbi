@@ -328,7 +328,7 @@ Norman Marlier, Olivier Brüls, Gilles Louppe
 Grace Avecilla, Julie N. Chuong, Fangfei Li, Gavin Sherlock, David Gresham, Yoav Ram
 
 ## Application to Real Data
-*Applications of neural simulation-based inference to real data.*
+*Applications of neural simulation-based inference beyond synthetic data.*
 
 - **SIMBIG : A Forward Modeling Approach To Analyzing Galaxy Clustering** [[arXiv]](https://arxiv.org/abs/2211.00723)  
 ChangHoon Hahn et al
