@@ -1,15 +1,14 @@
-# Awesome Neural SBI
+# Awesome Neural SBI<!-- omit from toc -->
 
 A community-sourced list of papers and resources on neural simulation-based inference.
 
 # Contents
 
-- [Awesome Neural SBI](#awesome-neural-sbi)
 - [Contents](#contents)
 - [Software and Resources](#software-and-resources)
   - [Code Packages and Benchmarks](#code-packages-and-benchmarks)
   - [Review Papers](#review-papers)
-  - [Links](#links)
+  - [Links/Discovery](#linksdiscovery)
 - [Papers](#papers)
   - [Theory and Methods](#theory-and-methods)
   - [Cosmology, Astrophysics, and Astronomy](#cosmology-astrophysics-and-astronomy)
@@ -38,7 +37,10 @@ A community-sourced list of papers and resources on neural simulation-based infe
 - **The frontier of simulation-based inference** [[arXiv]](https://arxiv.org/abs/1911.01429)  
 Kyle Cranmer, Johann Brehmer, Gilles Louppe
 
-## Links
+## Links/Discovery
+
+- [arXiv search](https://arxiv.org/search/advanced?advanced=1&terms-0-operator=AND&terms-0-term=%22simulation-based+inference%22+&terms-0-field=all&terms-1-operator=OR&terms-1-term=%22likelihood-free+inference%22&terms-1-field=all&classification-computer_science=y&classification-mathematics=y&classification-physics=y&classification-physics_archives=all&classification-q_biology=y&classification-statistics=y&classification-include_cross_list=include&date-filter_by=all_dates&date-year=&date-from_date=&date-to_date=&date-date_type=submitted_date&abstracts=show&size=50&order=-announced_date_first) for "simulation-based inference" or "likelihood-free inference"
+- [Google Scholar search](https://scholar.google.com/scholar?hl=en&scisbd=1&as_sdt=0%2C22&q=%22simulation-based+inference%22+OR+%22likelihood-free+inference%22&btnG=) for "simulation-based inference" or "likelihood-free inference"
 
 # Papers
 
