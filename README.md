@@ -1,13 +1,12 @@
-# Awesome Neural SBI (WiP)<!-- omit from toc -->
+# Awesome Neural SBI<!-- omit from toc -->
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-red.svg)](https://opensource.org/licenses/MIT)
-[![Pull Requests Welcome](https://img.shields.io/badge/Pull%20Requests-welcome-green.svg?logo=github)]
+[![Pull requests welcome](https://img.shields.io/badge/Pull%20Requests-welcome-green.svg?logo=github)]
 
 A community-sourced list of papers and resources on neural simulation-based inference, covering both methodological developments and domain applications. Given the nature of the field, the list is bound to be highly incomplete -- contributions are welcome!
 
-# Contents
+# Contents<!-- omit from toc -->
 
-- [Contents](#contents)
 - [Software and Resources](#software-and-resources)
   - [Code Packages and Benchmarks](#code-packages-and-benchmarks)
   - [Review Papers](#review-papers)
@@ -31,7 +30,7 @@ A community-sourced list of papers and resources on neural simulation-based infe
 - `lampe` [[Code]](https://github.com/francois-rozet/lampe) [[Docs]](https://francois-rozet.github.io/lampe/): Likelihood-free AMortized Posterior Estimation with PyTorch.
 - `MadMiner` [[Code]](https://github.com/madminer-tool/madminer) [[Docs]](https://madminer.readthedocs.io/en/latest/index.html) [[Paper]](https://arxiv.org/abs/1907.10621): Machine learning–based inference toolkit for particle physics.
 - `pydelfi` [[Code]](https://github.com/justinalsing/pydelfi) [[Docs]](https://pydelfi.readthedocs.io/en/latest/intro.html) [[Paper]](https://arxiv.org/abs/1903.00007): Early implementation of Density Estimation Likelihood-Free Inference (DELFI) with neural density estimators and adaptive acquisition of simulations.
-- `carl` [[Code]](https://github.com/diana-hep/carl) [[Docs]](http://diana-hep.org/carl/) [[Paper]](https://joss.theoj.org/papers/10.21105/joss.00011): An early toolbox for neural network-based likelihood-free inference in Python.
+- `carl` [[Code]](https://github.com/diana-hep/carl) [[Docs]](http://diana-hep.org/carl/) [[Paper]](https://joss.theoj.org/papers/10.21105/joss.00011): Early toolbox for neural network-based likelihood-free inference in Python.
 
 ## Review Papers
 
@@ -45,7 +44,7 @@ Kyle Cranmer, Johann Brehmer, Gilles Louppe
 - [simulation-based-inference.org](http://simulation-based-inference.org/)
 
 # Papers: Methods
-*Methodological and use-inspired developments. Papers listed in reverse-chronological order.*
+*Methodological and use-inspired papers. Listed in reverse-chronological order.*
 
 - **Monte Carlo Techniques for Addressing Large Errors and Missing Data in Simulation-based Inference** [[arXiv]](https://arxiv.org/abs/2211.03747)  
 Bingjie Wang, Joel Leja, Ashley Villar, Joshua S. Speagle
