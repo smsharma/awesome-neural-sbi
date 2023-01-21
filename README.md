@@ -1,6 +1,6 @@
 # Awesome Neural SBI (WiP)<!-- omit from toc -->
 
-A community-sourced list of papers and resources on neural simulation-based inference. Contributions welcome!
+A community-sourced list of papers and resources on neural simulation-based inference. Given the nature of the field, the list is applications is bound to be highly incomplete. Contributions are welcome!
 
 # Contents
 
@@ -8,15 +8,14 @@ A community-sourced list of papers and resources on neural simulation-based infe
 - [Software and Resources](#software-and-resources)
   - [Code Packages and Benchmarks](#code-packages-and-benchmarks)
   - [Review Papers](#review-papers)
-  - [Discovery](#discovery)
-- [Papers: Methods and Use-Inspired](#papers-methods-and-use-inspired)
+  - [Discovery and Links](#discovery-and-links)
+- [Papers: Methods](#papers-methods)
 - [Papers: Application](#papers-application)
   - [Cosmology, Astrophysics, and Astronomy](#cosmology-astrophysics-and-astronomy)
   - [Particle Physics](#particle-physics)
   - [Neuroscience](#neuroscience)
-  - [Evolutionary Biology and Genetics](#evolutionary-biology-and-genetics)
   - [Health and Medicine](#health-and-medicine)
-  - [Other Applications](#other-applications)
+  - [Other Domains](#other-domains)
   - [Application to Real Data](#application-to-real-data)
 
 # Software and Resources
@@ -36,12 +35,14 @@ A community-sourced list of papers and resources on neural simulation-based infe
 - **The frontier of simulation-based inference** [[arXiv]](https://arxiv.org/abs/1911.01429)  
 Kyle Cranmer, Johann Brehmer, Gilles Louppe
 
-## Discovery
+## Discovery and Links
 
 - [arXiv search](https://arxiv.org/search/advanced?advanced=1&terms-0-operator=AND&terms-0-term=%22simulation-based+inference%22+&terms-0-field=all&terms-1-operator=OR&terms-1-term=%22likelihood-free+inference%22&terms-1-field=all&classification-computer_science=y&classification-mathematics=y&classification-physics=y&classification-physics_archives=all&classification-q_biology=y&classification-statistics=y&classification-include_cross_list=include&date-filter_by=all_dates&date-year=&date-from_date=&date-to_date=&date-date_type=submitted_date&abstracts=show&size=50&order=-announced_date_first) for "simulation-based inference" or "likelihood-free inference"
 - [Google Scholar search](https://scholar.google.com/scholar?hl=en&scisbd=1&as_sdt=0%2C22&q=%22simulation-based+inference%22+OR+%22likelihood-free+inference%22&btnG=) for "simulation-based inference" or "likelihood-free inference"
+- [simulation-based-inference.org](http://simulation-based-inference.org/)
 
-# Papers: Methods and Use-Inspired
+# Papers: Methods
+Methodological and use-inspired developments. Papers in reverse-chronological order.
 
 - **Monte Carlo Techniques for Addressing Large Errors and Missing Data in Simulation-based Inference** [[arXiv]](https://arxiv.org/abs/2211.03747)  
 Bingjie Wang, Joel Leja, Ashley Villar, Joshua S. Speagle
@@ -179,8 +180,15 @@ George Papamakarios, Iain Murray
 Kyle Cranmer, Juan Pavez, Gilles Louppe
 
 # Papers: Application
+Domain application of neural simulation-based inference . Papers in reverse-chronological order.
 
 ## Cosmology, Astrophysics, and Astronomy
+
+- **Debiasing Standard Siren Inference of the Hubble Constant with Marginal Neural Ratio Estimation** [[arXiv]](https://arxiv.org/abs/2301.05241)  
+Samuel Gagnon-Hartman, John Ruan, Daryl Haggard
+
+- **Calibrating cosmological simulations with implicit likelihood inference using galaxy growth observables** [[arXiv]](https://arxiv.org/abs/2211.16461)  
+Yongseok Jo et al
 
 - **DIGS: Deep Inference of Galaxy Spectra with Neural Posterior Estimation** [[arXiv]](https://arxiv.org/abs/2211.09126)  
 Gourav Khullar, Brian Nord, Aleksandra Ciprijanovic, Jason Poh, Fei Xu
@@ -206,6 +214,9 @@ Gemma Zhang, Siddharth Mishra-Sharma, Cora Dvorkin
 - **Uncovering dark matter density profiles in dwarf galaxies with graph neural networks** [[arXiv]](https://arxiv.org/abs/2208.12825)  
 Tri Nguyen, Siddharth Mishra-Sharma, Reuel Williams, Lina Necib
 
+- **Estimating Cosmological Constraints from Galaxy Cluster Abundance using Simulation-Based Inference** [[arXiv]](https://arxiv.org/abs/2208.00134)  
+Moonzarin Reza, Yuanyuan Zhang, Brian Nord, Jason Poh, Aleksandra Ciprijanovic, Louis Strigari
+
 - **Towards reconstructing the halo clustering and halo mass function of N-body simulations using neural ratio estimation** [[arXiv]](https://arxiv.org/abs/2206.11312)  
 Androniki Dimitriou, Christoph Weniger, Camila A. Correa
 
@@ -217,6 +228,9 @@ Xiaosheng Zhao, Yi Mao, Benjamin D. Wandelt
 
 - **Accelerated Bayesian SED Modeling using Amortized Neural Posterior Estimation** [[arXiv]](https://arxiv.org/abs/2203.07391)  
 ChangHoon Hahn, Peter Melchior
+
+- **Simulation-Based Inference of Strong Gravitational Lensing Parameters** [[arXiv]](https://arxiv.org/abs/2112.05278)  
+Ronan Legin, Yashar Hezaveh, Laurence Perreault Levasseur, Benjamin Wandelt
 
 - **Fast and Credible Likelihood-Free Cosmology with Truncated Marginal Neural Ratio Estimation** [[arXiv]](https://arxiv.org/abs/2111.08030)  
 Alex Cole, Benjamin Kurt Miller, Samuel J. Witte, Maxwell X. Cai, Meiert W. Grootes, Francesco Nattino, Christoph Weniger
@@ -262,6 +276,12 @@ Justin Alsing, Tom Charnock, Stephen Feeney, Benjamin Wandelt
 - **Simulation-based inference methods for particle physics** [[arXiv]](https://arxiv.org/abs/2010.06439)  
 Johann Brehmer, Kyle Cranmer
 
+- **MadMiner: Machine learning-based inference for particle physics** [[arXiv]](https://arxiv.org/abs/1907.10621)  
+Johann Brehmer, Felix Kling, Irina Espejo, Kyle Cranmer
+
+- **Etalumis: Bringing Probabilistic Programming to Scientific Simulators at Scale** [[arXiv]](https://arxiv.org/abs/1907.03382)  
+Atılım Güneş Baydin et al
+
 - **Constraining Effective Field Theories with Machine Learning** [[arXiv]](https://arxiv.org/abs/1805.00013)  
 Johann Brehmer, Kyle Cranmer, Gilles Louppe, Juan Pavez
 
@@ -273,14 +293,36 @@ Alexander Fengler, Lakshmi N Govindarajan, Tony Chen, Michael J Frank
 - **Training deep neural density estimators to identify mechanistic models of neural dynamics** [[Paper]](https://elifesciences.org/articles/56261)  
 Pedro J Gonçalves et al
 
-## Evolutionary Biology and Genetics
+- **Amortized Bayesian Inference for Models of Cognition** [[arXiv]](https://arxiv.org/abs/2005.03899)  
+Stefan T. Radev, Andreas Voss, Eva Marie Wieschen, Paul-Christian Bürkner
 
 ## Health and Medicine
 
 - **Simulation-Based Inference for Whole-Brain Network Modeling of Epilepsy using Deep Neural Density Estimators** [[medRxiv]](https://www.medrxiv.org/content/10.1101/2022.06.02.22275860v1)  
 Meysam Hashemi, Anirudh N. Vattikonda, Jayant Jha, Viktor Sip, Marmaduke M. Woodman, Fabrice Bartolomei, Viktor K. Jirsa
 
-## Other Applications
+- **Simulation-Based Inference for Global Health Decisions** [[arXiv]](https://arxiv.org/abs/2005.07062)  
+Christian Schroeder de Witt et al
+
+## Other Domains
+
+- **Simulation-based inference of single-molecule force spectroscopy** [[arXiv]](https://arxiv.org/abs/2209.10392)  
+Lars Dingeldein, Pilar Cossio, Roberto Covino
+
+- **Normalizing flows for likelihood-free inference with fusion simulations** [[Paper]](https://iopscience.iop.org/article/10.1088/1361-6587/ac828d)  
+C S Furia, R M Churchill
+
+- **Amortized Bayesian Inference of GISAXS Data with Normalizing Flows** [[arXiv]](https://arxiv.org/abs/2210.01543)  
+Maksim Zhdanov, Lisa Randolph, Thomas Kluge, Motoaki Nakatsutsumi, Christian Gutt, Marina Ganeva, Nico Hoffmann
+
+- **Optimal Design of Experiments for Simulation-Based Inference of Mechanistic Acyclic Biological Networks** [[arXiv]](https://arxiv.org/abs/2111.13612)  
+Vincent Zaballa, Elliot Hui
+
+- **Simulation-based Bayesian inference for multi-fingered robotic grasping** [[arXiv]](https://arxiv.org/abs/2109.14275)  
+Norman Marlier, Olivier Brüls, Gilles Louppe
+
+- **Simulation-based inference of evolutionary parameters from adaptation dynamics using neural networks** [[bioRxiv]](https://www.biorxiv.org/content/10.1101/2021.09.30.462581v1.abstract)  
+Grace Avecilla, Julie N. Chuong, Fangfei Li, Gavin Sherlock, David Gresham, Yoav Ram
 
 ## Application to Real Data
 Applications of neural simulation-based inference to real data.
