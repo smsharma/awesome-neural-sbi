@@ -6,15 +6,15 @@ A community-sourced list of papers and resources on neural simulation-based infe
   
 ## Code Packages and Benchmarks
 
-- [`sbi`](https://github.com/mackelab/sbi) [[Paper]](https://joss.theoj.org/papers/10.21105/joss.02505)[[Docs]](https://www.mackelab.org/sbi/): General-purpose simulation-based inference toolkit.
-- [`sbibm`](https://github.com/sbi-benchmark/sbibm) [[Paper]](https://arxiv.org/abs/2101.04653)[[Docs]](https://sbi-benchmark.github.io/): Simulation-based inference benchmarking framework.
-- [`swyft`](https://github.com/undark-lab/swyft) [[Paper]](https://joss.theoj.org/papers/10.21105/joss.04205)[[Docs]](https://swyft.readthedocs.io/en/latest/): Official implementation of Truncated Marginal Neural Ratio Estimation (TMNRE), a hyper-efficient, simulation-based inference technique for complex data and expensive simulators. 
-- [`lampe`](https://github.com/francois-rozet/lampe) [[Docs]](https://francois-rozet.github.io/lampe/): Likelihood-free AMortized Posterior Estimation with PyTorch.
-- [`MadMiner`](https://github.com/madminer-tool/madminer) [[Paper]](https://arxiv.org/abs/1907.10621)[[Docs]](https://madminer.readthedocs.io/en/latest/index.html): Machine learning–based inference toolkit for particle physics.
+- [`sbi`] [[Code]](https://github.com/mackelab/sbi) [[Paper]](https://joss.theoj.org/papers/10.21105/joss.02505) [[Docs]](https://www.mackelab.org/sbi/): General-purpose simulation-based inference toolkit.
+- [`sbibm`] [[Code]](https://github.com/sbi-benchmark/sbibm) [[Paper]](https://arxiv.org/abs/2101.04653) [[Docs]](https://sbi-benchmark.github.io/): Simulation-based inference benchmarking framework.
+- [`swyft`] [[Code]](https://github.com/undark-lab/swyft) [[Paper]](https://joss.theoj.org/papers/10.21105/joss.04205) [[Docs]](https://swyft.readthedocs.io/en/latest/): Official implementation of Truncated Marginal Neural Ratio Estimation (TMNRE), a hyper-efficient, simulation-based inference technique for complex data and expensive simulators. 
+- [`lampe`] [[Code]](https://github.com/francois-rozet/lampe) [[Docs]](https://francois-rozet.github.io/lampe/): Likelihood-free AMortized Posterior Estimation with PyTorch.
+- [`MadMiner`] [[Code]](https://github.com/madminer-tool/madminer) [[Paper]](https://arxiv.org/abs/1907.10621) [[Docs]](https://madminer.readthedocs.io/en/latest/index.html): Machine learning–based inference toolkit for particle physics.
 
-Unmaintained:
-- [`pydelfi`](https://github.com/justinalsing/pydelfi) [[Paper]](https://arxiv.org/abs/1903.00007)[[Docs]](https://pydelfi.readthedocs.io/en/latest/intro.html): Density Estimation Likelihood-Free Inference (DELFI) with neural density estimators and adaptive acquisition of simulations.
-- [`carl`](https://github.com/diana-hep/carl) [[Paper]](https://joss.theoj.org/papers/10.21105/joss.00011)[[Docs]](http://diana-hep.org/carl/): An early toolbox for neural network-based likelihood-free inference in Python.
+**Legacy packages**:
+- [`pydelfi`] [[Code]](https://github.com/justinalsing/pydelfi) [[Paper]](https://arxiv.org/abs/1903.00007) [[Docs]](https://pydelfi.readthedocs.io/en/latest/intro.html): Density Estimation Likelihood-Free Inference (DELFI) with neural density estimators and adaptive acquisition of simulations.
+- [`carl`] [[Code]](https://github.com/diana-hep/carl) [[Paper]](https://joss.theoj.org/papers/10.21105/joss.00011) [[Docs]](http://diana-hep.org/carl/): An early toolbox for neural network-based likelihood-free inference in Python.
 
 ## Review Papers
 
