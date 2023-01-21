@@ -2,12 +2,29 @@
 
 A community-sourced list of papers and resources on neural simulation-based inference.
 
+# Contents
+
+- [Awesome Neural SBI](#awesome-neural-sbi)
+- [Contents](#contents)
+- [Software and Resources](#software-and-resources)
+  - [Code Packages and Benchmarks](#code-packages-and-benchmarks)
+  - [Review Papers](#review-papers)
+  - [Links](#links)
+- [Papers](#papers)
+  - [Theory and Methods](#theory-and-methods)
+  - [Cosmology, Astrophysics, and Astronomy](#cosmology-astrophysics-and-astronomy)
+  - [Particle Physics](#particle-physics)
+  - [Neuroscience](#neuroscience)
+  - [Evolutionary Biology and Genetics](#evolutionary-biology-and-genetics)
+  - [Other Applications](#other-applications)
+  - [Applications to Real Data](#applications-to-real-data)
+
 # Software and Resources
   
 ## Code Packages and Benchmarks
 
 - `sbi` [[Code]](https://github.com/mackelab/sbi) [[Docs]](https://www.mackelab.org/sbi/) [[Paper]](https://joss.theoj.org/papers/10.21105/joss.02505): General-purpose simulation-based inference toolkit.
-- `sbibm` [[Code]](https://github.com/sbi-benchmark/sbibm) [[Docs]](https://sbi-benchmark.github.io/)[[Paper]](https://arxiv.org/abs/2101.04653) : Simulation-based inference benchmarking framework.
+- `sbibm` [[Code]](https://github.com/sbi-benchmark/sbibm) [[Docs]](https://sbi-benchmark.github.io/) [[Paper]](https://arxiv.org/abs/2101.04653): Simulation-based inference benchmarking framework.
 - `swyft` [[Code]](https://github.com/undark-lab/swyft) [[Docs]](https://swyft.readthedocs.io/en/latest/) [[Paper]](https://joss.theoj.org/papers/10.21105/joss.04205): Official implementation of Truncated Marginal Neural Ratio Estimation (TMNRE), a hyper-efficient, simulation-based inference technique for complex data and expensive simulators. 
 - `lampe` [[Code]](https://github.com/francois-rozet/lampe) [[Docs]](https://francois-rozet.github.io/lampe/): Likelihood-free AMortized Posterior Estimation with PyTorch.
 - `MadMiner` [[Code]](https://github.com/madminer-tool/madminer) [[Docs]](https://madminer.readthedocs.io/en/latest/index.html) [[Paper]](https://arxiv.org/abs/1907.10621): Machine learning–based inference toolkit for particle physics.
@@ -23,7 +40,9 @@ Kyle Cranmer, Johann Brehmer, Gilles Louppe
 
 ## Links
 
-# Theory and Methods
+# Papers
+
+## Theory and Methods
 
 - **Monte Carlo Techniques for Addressing Large Errors and Missing Data in Simulation-based Inference** [[arXiv]](https://arxiv.org/abs/2211.03747)  
 Bingjie Wang, Joel Leja, Ashley Villar, Joshua S. Speagle
@@ -160,20 +179,17 @@ George Papamakarios, Iain Murray
 - **Approximating Likelihood Ratios with Calibrated Discriminative Classifiers** [[arXiv]](https://arxiv.org/abs/1506.02169)  
 Kyle Cranmer, Juan Pavez, Gilles Louppe
 
+## Cosmology, Astrophysics, and Astronomy
 
-# Application
-
-## Cosmology, astrophysics, and astronomy
-
-## Particle physics
+## Particle Physics
 
 ## Neuroscience
 
-## Evolutionary biology and genetics
+## Evolutionary Biology and Genetics
 
-## Other
+## Other Applications
 
-## Applications to data
+## Applications to Real Data
 Applications of neural simulation-based inference to real data.
 
 - **SIMBIG : A Forward Modeling Approach To Analyzing Galaxy Clustering** [[arXiv]](https://arxiv.org/abs/2211.00723)  
