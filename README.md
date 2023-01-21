@@ -1,6 +1,9 @@
 # Awesome Neural SBI (WiP)<!-- omit from toc -->
 
-A community-sourced list of papers and resources on neural simulation-based inference. Given the nature of the field, the list is applications is bound to be highly incomplete. Contributions are welcome!
+[![License: MIT](https://img.shields.io/badge/License-MIT-red.svg)](https://opensource.org/licenses/MIT)
+[![Pull Requests Welcome](https://img.shields.io/badge/Pull%20Requests-welcome-green.svg?logo=github)]
+
+A community-sourced list of papers and resources on neural simulation-based inference, covering both methodological developments and domain applications. Given the nature of the field, the list is bound to be highly incomplete -- contributions are welcome!
 
 # Contents
 
@@ -42,7 +45,7 @@ Kyle Cranmer, Johann Brehmer, Gilles Louppe
 - [simulation-based-inference.org](http://simulation-based-inference.org/)
 
 # Papers: Methods
-Methodological and use-inspired developments. Papers in reverse-chronological order.
+*Methodological and use-inspired developments. Papers listed in reverse-chronological order.*
 
 - **Monte Carlo Techniques for Addressing Large Errors and Missing Data in Simulation-based Inference** [[arXiv]](https://arxiv.org/abs/2211.03747)  
 Bingjie Wang, Joel Leja, Ashley Villar, Joshua S. Speagle
@@ -180,7 +183,7 @@ George Papamakarios, Iain Murray
 Kyle Cranmer, Juan Pavez, Gilles Louppe
 
 # Papers: Application
-Domain application of neural simulation-based inference . Papers in reverse-chronological order.
+*Domain application of neural simulation-based inference. Papers listed in reverse-chronological order.*
 
 ## Cosmology, Astrophysics, and Astronomy
 
@@ -305,6 +308,7 @@ Meysam Hashemi, Anirudh N. Vattikonda, Jayant Jha, Viktor Sip, Marmaduke M. Wood
 Christian Schroeder de Witt et al
 
 ## Other Domains
+*Applications where multiple papers could not be grouped under a single heading.*
 
 - **Simulation-based inference of single-molecule force spectroscopy** [[arXiv]](https://arxiv.org/abs/2209.10392)  
 Lars Dingeldein, Pilar Cossio, Roberto Covino
@@ -325,7 +329,7 @@ Norman Marlier, Olivier Brüls, Gilles Louppe
 Grace Avecilla, Julie N. Chuong, Fangfei Li, Gavin Sherlock, David Gresham, Yoav Ram
 
 ## Application to Real Data
-Applications of neural simulation-based inference to real data.
+*Applications of neural simulation-based inference to real data.*
 
 - **SIMBIG : A Forward Modeling Approach To Analyzing Galaxy Clustering** [[arXiv]](https://arxiv.org/abs/2211.00723)  
 ChangHoon Hahn et al
