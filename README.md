@@ -4,13 +4,13 @@ A community-sourced list of papers and resources on neural simulation-based infe
 
 # Code and resources
 
-- [`sbi`](https://github.com/mackelab/sbi) [[Paper]](https://joss.theoj.org/papers/10.21105/joss.02505)
-- [`sbibm`](https://github.com/sbi-benchmark/sbibm) [[Paper]](https://arxiv.org/abs/2101.04653)
-- [`swyft`](https://github.com/undark-lab/swyft) [[Paper]](https://joss.theoj.org/papers/10.21105/joss.04205)
-- [`lampe`](https://github.com/francois-rozet/lampe) 
-- [`MadMiner`](https://github.com/madminer-tool/madminer) [[Paper]](https://arxiv.org/abs/1907.10621)
-- [`pydelfi`](https://github.com/justinalsing/pydelfi) [[Paper]](https://arxiv.org/abs/1903.00007)
-- [`carl`](https://github.com/diana-hep/carl) [[Paper]](https://joss.theoj.org/papers/10.21105/joss.00011)
+- [`sbi`](https://github.com/mackelab/sbi) [[Paper]](https://joss.theoj.org/papers/10.21105/joss.02505): General-purpose simulation-based inference toolkit.
+- [`sbibm`](https://github.com/sbi-benchmark/sbibm) [[Paper]](https://arxiv.org/abs/2101.04653): Simulation-based inference benchmarking framework.
+- [`swyft`](https://github.com/undark-lab/swyft) [[Paper]](https://joss.theoj.org/papers/10.21105/joss.04205): Official implementation of Truncated Marginal Neural Ratio Estimation (TMNRE), a hyper-efficient, simulation-based inference technique for complex data and expensive simulators. 
+- [`lampe`](https://github.com/francois-rozet/lampe): Likelihood-free AMortized Posterior Estimation with PyTorch
+- [`MadMiner`](https://github.com/madminer-tool/madminer) [[Paper]](https://arxiv.org/abs/1907.10621): Machine learning–based inference toolkit for particle physics
+- [`pydelfi`](https://github.com/justinalsing/pydelfi) [[Paper]](https://arxiv.org/abs/1903.00007): Density Estimation Likelihood-Free Inference (DELFI) with neural density estimators and adaptive acquisition of simulations.
+- [`carl`](https://github.com/diana-hep/carl) [[Paper]](https://joss.theoj.org/papers/10.21105/joss.00011): An early toolbox for neural network-based likelihood-free inference in Python.
   
 ## Code packages and benchmarks
 
