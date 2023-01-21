@@ -6,15 +6,15 @@ A community-sourced list of papers and resources on neural simulation-based infe
   
 ## Code Packages and Benchmarks
 
-- [`sbi`] [[Code]](https://github.com/mackelab/sbi) [[Paper]](https://joss.theoj.org/papers/10.21105/joss.02505) [[Docs]](https://www.mackelab.org/sbi/): General-purpose simulation-based inference toolkit.
-- [`sbibm`] [[Code]](https://github.com/sbi-benchmark/sbibm) [[Paper]](https://arxiv.org/abs/2101.04653) [[Docs]](https://sbi-benchmark.github.io/): Simulation-based inference benchmarking framework.
-- [`swyft`] [[Code]](https://github.com/undark-lab/swyft) [[Paper]](https://joss.theoj.org/papers/10.21105/joss.04205) [[Docs]](https://swyft.readthedocs.io/en/latest/): Official implementation of Truncated Marginal Neural Ratio Estimation (TMNRE), a hyper-efficient, simulation-based inference technique for complex data and expensive simulators. 
-- [`lampe`] [[Code]](https://github.com/francois-rozet/lampe) [[Docs]](https://francois-rozet.github.io/lampe/): Likelihood-free AMortized Posterior Estimation with PyTorch.
-- [`MadMiner`] [[Code]](https://github.com/madminer-tool/madminer) [[Paper]](https://arxiv.org/abs/1907.10621) [[Docs]](https://madminer.readthedocs.io/en/latest/index.html): Machine learning–based inference toolkit for particle physics.
+- `sbi` [[Code]](https://github.com/mackelab/sbi) [[Docs]](https://www.mackelab.org/sbi/) [[Paper]](https://joss.theoj.org/papers/10.21105/joss.02505): General-purpose simulation-based inference toolkit.
+- `sbibm` [[Code]](https://github.com/sbi-benchmark/sbibm) [[Docs]](https://sbi-benchmark.github.io/)[[Paper]](https://arxiv.org/abs/2101.04653) : Simulation-based inference benchmarking framework.
+- `swyft` [[Code]](https://github.com/undark-lab/swyft) [[Docs]](https://swyft.readthedocs.io/en/latest/) [[Paper]](https://joss.theoj.org/papers/10.21105/joss.04205): Official implementation of Truncated Marginal Neural Ratio Estimation (TMNRE), a hyper-efficient, simulation-based inference technique for complex data and expensive simulators. 
+- `lampe` [[Code]](https://github.com/francois-rozet/lampe) [[Docs]](https://francois-rozet.github.io/lampe/): Likelihood-free AMortized Posterior Estimation with PyTorch.
+- `MadMiner` [[Code]](https://github.com/madminer-tool/madminer) [[Docs]](https://madminer.readthedocs.io/en/latest/index.html) [[Paper]](https://arxiv.org/abs/1907.10621): Machine learning–based inference toolkit for particle physics.
 
 **Legacy packages**:
-- [`pydelfi`] [[Code]](https://github.com/justinalsing/pydelfi) [[Paper]](https://arxiv.org/abs/1903.00007) [[Docs]](https://pydelfi.readthedocs.io/en/latest/intro.html): Density Estimation Likelihood-Free Inference (DELFI) with neural density estimators and adaptive acquisition of simulations.
-- [`carl`] [[Code]](https://github.com/diana-hep/carl) [[Paper]](https://joss.theoj.org/papers/10.21105/joss.00011) [[Docs]](http://diana-hep.org/carl/): An early toolbox for neural network-based likelihood-free inference in Python.
+- `pydelfi` [[Code]](https://github.com/justinalsing/pydelfi) [[Docs]](https://pydelfi.readthedocs.io/en/latest/intro.html) [[Paper]](https://arxiv.org/abs/1903.00007): Density Estimation Likelihood-Free Inference (DELFI) with neural density estimators and adaptive acquisition of simulations.
+- `carl` [[Code]](https://github.com/diana-hep/carl) [[Docs]](http://diana-hep.org/carl/) [[Paper]](https://joss.theoj.org/papers/10.21105/joss.00011): An early toolbox for neural network-based likelihood-free inference in Python.
 
 ## Review Papers
 
@@ -172,3 +172,15 @@ Kyle Cranmer, Juan Pavez, Gilles Louppe
 ## Evolutionary biology and genetics
 
 ## Other
+
+## Applications to data
+Applications of neural simulation-based inference to real data.
+
+- **SIMBIG : A Forward Modeling Approach To Analyzing Galaxy Clustering** [[arXiv]](https://arxiv.org/abs/2211.00723)  
+ChangHoon Hahn et al
+
+- **A neural simulation-based inference approach for characterizing the Galactic Center γ-ray excess** [[arXiv]](https://arxiv.org/abs/2110.06931)  
+Siddharth Mishra-Sharma, Kyle Cranmer
+
+- **Likelihood-free inference with neural compression of DES SV weak lensing map statistics** [[arXiv]](https://arxiv.org/abs/2009.08459)  
+Niall Jeffrey, Justin Alsing, François Lanusse
