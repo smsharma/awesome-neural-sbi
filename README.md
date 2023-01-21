@@ -15,6 +15,7 @@ A community-sourced list of papers and resources on neural simulation-based infe
   - [Particle Physics](#particle-physics)
   - [Neuroscience](#neuroscience)
   - [Evolutionary Biology and Genetics](#evolutionary-biology-and-genetics)
+  - [Health and Medicine](#health-and-medicine)
   - [Other Applications](#other-applications)
   - [Application to Real Data](#application-to-real-data)
 
@@ -27,8 +28,8 @@ A community-sourced list of papers and resources on neural simulation-based infe
 - `swyft` [[Code]](https://github.com/undark-lab/swyft) [[Docs]](https://swyft.readthedocs.io/en/latest/) [[Paper]](https://joss.theoj.org/papers/10.21105/joss.04205): Official implementation of Truncated Marginal Neural Ratio Estimation (TMNRE), a hyper-efficient, simulation-based inference technique for complex data and expensive simulators. 
 - `lampe` [[Code]](https://github.com/francois-rozet/lampe) [[Docs]](https://francois-rozet.github.io/lampe/): Likelihood-free AMortized Posterior Estimation with PyTorch.
 - `MadMiner` [[Code]](https://github.com/madminer-tool/madminer) [[Docs]](https://madminer.readthedocs.io/en/latest/index.html) [[Paper]](https://arxiv.org/abs/1907.10621): Machine learning–based inference toolkit for particle physics.
-- `pydelfi` (Legacy) [[Code]](https://github.com/justinalsing/pydelfi) [[Docs]](https://pydelfi.readthedocs.io/en/latest/intro.html) [[Paper]](https://arxiv.org/abs/1903.00007): Early implementation of Density Estimation Likelihood-Free Inference (DELFI) with neural density estimators and adaptive acquisition of simulations.
-- `carl` (Legacy) [[Code]](https://github.com/diana-hep/carl) [[Docs]](http://diana-hep.org/carl/) [[Paper]](https://joss.theoj.org/papers/10.21105/joss.00011): An early toolbox for neural network-based likelihood-free inference in Python.
+- `pydelfi` [[Code]](https://github.com/justinalsing/pydelfi) [[Docs]](https://pydelfi.readthedocs.io/en/latest/intro.html) [[Paper]](https://arxiv.org/abs/1903.00007): Early implementation of Density Estimation Likelihood-Free Inference (DELFI) with neural density estimators and adaptive acquisition of simulations.
+- `carl` [[Code]](https://github.com/diana-hep/carl) [[Docs]](http://diana-hep.org/carl/) [[Paper]](https://joss.theoj.org/papers/10.21105/joss.00011): An early toolbox for neural network-based likelihood-free inference in Python.
 
 ## Review Papers
 
@@ -108,6 +109,9 @@ Joeri Hermans, Arnaud Delaunoy, François Rozet, Antoine Wehenkel, Volodimir Beg
 - **Arbitrary Marginal Neural Ratio Estimation for Simulation-based Inference** [[arXiv]](https://arxiv.org/abs/2110.00449)  
 François Rozet, Gilles Louppe
 
+- **Likelihood-Free Frequentist Inference: Confidence Sets with Correct Conditional Coverage** [[arXiv]](https://arxiv.org/abs/2107.03920)  
+Niccolò Dalmasso, Luca Masserano, David Zhao, Rafael Izbicki, Ann B. Lee
+
 - **Truncated Marginal Neural Ratio Estimation** [[arXiv]](https://arxiv.org/abs/2107.01214)  [[Code]](https://github.com/undark-lab/swyft/)  
 Benjamin Kurt Miller, Alex Cole, Patrick Forré, Gilles Louppe, Christoph Weniger
 
@@ -168,9 +172,6 @@ George Papamakarios, David C. Sterratt, Iain Murray
 - **A Guide to Constraining Effective Field Theories with Machine Learning** [[arXiv]](https://arxiv.org/abs/1805.00020)  
 Johann Brehmer, Kyle Cranmer, Gilles Louppe, Juan Pavez
 
-- **Constraining Effective Field Theories with Machine Learning** [[arXiv]](https://arxiv.org/abs/1805.00013)  
-Johann Brehmer, Kyle Cranmer, Gilles Louppe, Juan Pavez
-
 - **Fast ε-free Inference of Simulation Models with Bayesian Conditional Density Estimation** [[arXiv]](https://arxiv.org/abs/1605.06376)  
 George Papamakarios, Iain Murray
 
@@ -181,11 +182,103 @@ Kyle Cranmer, Juan Pavez, Gilles Louppe
 
 ## Cosmology, Astrophysics, and Astronomy
 
+- **DIGS: Deep Inference of Galaxy Spectra with Neural Posterior Estimation** [[arXiv]](https://arxiv.org/abs/2211.09126)  
+Gourav Khullar, Brian Nord, Aleksandra Ciprijanovic, Jason Poh, Fei Xu
+
+- **Detection is truncation: studying source populations with truncated marginal neural ratio estimation** [[arXiv]](https://arxiv.org/abs/2211.04291)  
+Noemi Anau Montel, Christoph Weniger
+
+- **SIMBIG : A Forward Modeling Approach To Analyzing Galaxy Clustering** [[arXiv]](https://arxiv.org/abs/2211.00723)  
+ChangHoon Hahn et al
+
+- **Neural Importance Sampling for Rapid and Reliable Gravitational-Wave Inference** [[arXiv]](https://arxiv.org/abs/2210.05686)  
+Maximilian Dax, Stephen R. Green, Jonathan Gair, Michael Pürrer, Jonas Wildberger, Jakob H. Macke, Alessandra Buonanno, Bernhard Schölkopf
+
+- **One never walks alone: the effect of the perturber population on subhalo measurements in strong gravitational lenses** [[arXiv]](https://arxiv.org/abs/2209.09918)  
+Adam Coogan, Noemi Anau Montel, Konstantin Karchev, Meiert W. Grootes, Francesco Nattino, Christoph Weniger
+
+- **SICRET: Supernova Ia Cosmology with truncated marginal neural Ratio EsTimation** [[arXiv]](https://arxiv.org/abs/2209.06733)  
+Konstantin Karchev, Roberto Trotta, Christoph Weniger
+
+- **Inferring subhalo effective density slopes from strong lensing observations with neural likelihood-ratio estimation** [[arXiv]](https://arxiv.org/abs/2208.13796)  
+Gemma Zhang, Siddharth Mishra-Sharma, Cora Dvorkin
+
+- **Uncovering dark matter density profiles in dwarf galaxies with graph neural networks** [[arXiv]](https://arxiv.org/abs/2208.12825)  
+Tri Nguyen, Siddharth Mishra-Sharma, Reuel Williams, Lina Necib
+
+- **Towards reconstructing the halo clustering and halo mass function of N-body simulations using neural ratio estimation** [[arXiv]](https://arxiv.org/abs/2206.11312)  
+Androniki Dimitriou, Christoph Weniger, Camila A. Correa
+
+- **Estimating the warm dark matter mass from strong lensing images with truncated marginal neural ratio estimation** [[arXiv]](https://arxiv.org/abs/2205.09126)  
+Noemi Anau Montel, Adam Coogan, Camila Correa, Konstantin Karchev, Christoph Weniger
+
+- **Implicit Likelihood Inference of Reionization Parameters from the 21 cm Power Spectrum** [[arXiv]](https://arxiv.org/abs/2203.15734)  
+Xiaosheng Zhao, Yi Mao, Benjamin D. Wandelt
+
+- **Accelerated Bayesian SED Modeling using Amortized Neural Posterior Estimation** [[arXiv]](https://arxiv.org/abs/2203.07391)  
+ChangHoon Hahn, Peter Melchior
+
+- **Fast and Credible Likelihood-Free Cosmology with Truncated Marginal Neural Ratio Estimation** [[arXiv]](https://arxiv.org/abs/2111.08030)  
+Alex Cole, Benjamin Kurt Miller, Samuel J. Witte, Maxwell X. Cai, Meiert W. Grootes, Francesco Nattino, Christoph Weniger
+
+- **A neural simulation-based inference approach for characterizing the Galactic Center γ-ray excess** [[arXiv]](https://arxiv.org/abs/2110.06931)  
+Siddharth Mishra-Sharma, Kyle Cranmer
+
+- **Inferring dark matter substructure with astrometric lensing beyond the power spectrum** [[arXiv]](https://arxiv.org/abs/2110.01620)  
+Siddharth Mishra-Sharma
+
+- **Approximate Bayesian Neural Doppler Imaging** [[arXiv]](https://arxiv.org/abs/2108.09266)  
+A. Asensio Ramos, C. Diaz Baso, O. Kochukhov
+
+- **Lossless, Scalable Implicit Likelihood Inference for Cosmological Fields** [[arXiv]](https://arxiv.org/abs/2107.07405)  
+T. Lucas Makinen, Tom Charnock, Justin Alsing, Benjamin D. Wandelt
+
+- **Real-time gravitational-wave science with neural posterior estimation** [[arXiv]](https://arxiv.org/abs/2106.12594)  
+Maximilian Dax, Stephen R. Green, Jonathan Gair, Jakob H. Macke, Alessandra Buonanno, Bernhard Schölkopf
+
+- **Real-Time Likelihood-Free Inference of Roman Binary Microlensing Events with Amortized Neural Posterior Estimation** [[arXiv]](https://arxiv.org/abs/2102.05673)  
+Keming Zhang, Joshua S. Bloom, B. Scott Gaudi, Francois Lanusse, Casey Lam, Jessica R. Lu
+
+- **Towards constraining warm dark matter with stellar streams through neural simulation-based inference** [[arXiv]](https://arxiv.org/abs/2011.14923)  
+Joeri Hermans, Nilanjan Banik, Christoph Weniger, Gianfranco Bertone, Gilles Louppe
+
+- **Lightning-Fast Gravitational Wave Parameter Inference through Neural Amortization** [[arXiv]](https://arxiv.org/abs/2010.12931)  
+Arnaud Delaunoy, Antoine Wehenkel, Tanja Hinderer, Samaya Nissanke, Christoph Weniger, Andrew R. Williamson, Gilles Louppe
+
+- **The sum of the masses of the Milky Way and M31: a likelihood-free inference approach** [[arXiv]](https://arxiv.org/abs/2010.08537)  
+Pablo Lemos, Niall Jeffrey, Lorne Whiteway, Ofer Lahav, Niam I Libeskind, Yehuda Hoffman
+
+- **Likelihood-free inference with neural compression of DES SV weak lensing map statistics** [[arXiv]](https://arxiv.org/abs/2009.08459)  
+Niall Jeffrey, Justin Alsing, François Lanusse
+
+- **Mining for Dark Matter Substructure: Inferring subhalo population properties from strong lenses with machine learning** [[arXiv]](https://arxiv.org/abs/1909.02005)  
+Johann Brehmer, Siddharth Mishra-Sharma, Joeri Hermans, Gilles Louppe, Kyle Cranmer
+
+- **Fast likelihood-free cosmology with neural density estimators and active learning** [[arXiv]](https://arxiv.org/abs/1903.00007)  
+Justin Alsing, Tom Charnock, Stephen Feeney, Benjamin Wandelt
+
 ## Particle Physics
+
+- **Simulation-based inference methods for particle physics** [[arXiv]](https://arxiv.org/abs/2010.06439)  
+Johann Brehmer, Kyle Cranmer
+
+- **Constraining Effective Field Theories with Machine Learning** [[arXiv]](https://arxiv.org/abs/1805.00013)  
+Johann Brehmer, Kyle Cranmer, Gilles Louppe, Juan Pavez
 
 ## Neuroscience
 
+- **Likelihood approximation networks (LANs) for fast inference of simulation models in cognitive neuroscience** [[Paper]](https://elifesciences.org/articles/65074)  
+Alexander Fengler, Lakshmi N Govindarajan, Tony Chen, Michael J Frank
+
+- **Training deep neural density estimators to identify mechanistic models of neural dynamics** [[Paper]](https://elifesciences.org/articles/56261)  
+Pedro J Gonçalves et al
+
 ## Evolutionary Biology and Genetics
+
+## Health and Medicine
+
+- **Simulation-Based Inference for Whole-Brain Network Modeling of Epilepsy using Deep Neural Density Estimators** [[medRxiv]](https://www.medrxiv.org/content/10.1101/2022.06.02.22275860v1)  
+Meysam Hashemi, Anirudh N. Vattikonda, Jayant Jha, Viktor Sip, Marmaduke M. Woodman, Fabrice Bartolomei, Viktor K. Jirsa
 
 ## Other Applications
 
