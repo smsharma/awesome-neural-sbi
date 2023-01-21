@@ -2,23 +2,28 @@
 
 A community-sourced list of papers and resources on neural simulation-based inference.
 
-# Code and resources
-
-- [`sbi`](https://github.com/mackelab/sbi) [[Paper]](https://joss.theoj.org/papers/10.21105/joss.02505): General-purpose simulation-based inference toolkit.
-- [`sbibm`](https://github.com/sbi-benchmark/sbibm) [[Paper]](https://arxiv.org/abs/2101.04653): Simulation-based inference benchmarking framework.
-- [`swyft`](https://github.com/undark-lab/swyft) [[Paper]](https://joss.theoj.org/papers/10.21105/joss.04205): Official implementation of Truncated Marginal Neural Ratio Estimation (TMNRE), a hyper-efficient, simulation-based inference technique for complex data and expensive simulators. 
-- [`lampe`](https://github.com/francois-rozet/lampe): Likelihood-free AMortized Posterior Estimation with PyTorch
-- [`MadMiner`](https://github.com/madminer-tool/madminer) [[Paper]](https://arxiv.org/abs/1907.10621): Machine learning–based inference toolkit for particle physics
-- [`pydelfi`](https://github.com/justinalsing/pydelfi) [[Paper]](https://arxiv.org/abs/1903.00007): Density Estimation Likelihood-Free Inference (DELFI) with neural density estimators and adaptive acquisition of simulations.
-- [`carl`](https://github.com/diana-hep/carl) [[Paper]](https://joss.theoj.org/papers/10.21105/joss.00011): An early toolbox for neural network-based likelihood-free inference in Python.
+# Software and Resources
   
-## Code packages and benchmarks
+## Code Packages and Benchmarks
 
-## Review papers
+- [`sbi`](https://github.com/mackelab/sbi) [[Paper]](https://joss.theoj.org/papers/10.21105/joss.02505)[[Docs]](https://www.mackelab.org/sbi/): General-purpose simulation-based inference toolkit.
+- [`sbibm`](https://github.com/sbi-benchmark/sbibm) [[Paper]](https://arxiv.org/abs/2101.04653)[[Docs]](https://sbi-benchmark.github.io/): Simulation-based inference benchmarking framework.
+- [`swyft`](https://github.com/undark-lab/swyft) [[Paper]](https://joss.theoj.org/papers/10.21105/joss.04205)[[Docs]](https://swyft.readthedocs.io/en/latest/): Official implementation of Truncated Marginal Neural Ratio Estimation (TMNRE), a hyper-efficient, simulation-based inference technique for complex data and expensive simulators. 
+- [`lampe`](https://github.com/francois-rozet/lampe) [[Docs]](https://francois-rozet.github.io/lampe/): Likelihood-free AMortized Posterior Estimation with PyTorch.
+- [`MadMiner`](https://github.com/madminer-tool/madminer) [[Paper]](https://arxiv.org/abs/1907.10621)[[Docs]](https://madminer.readthedocs.io/en/latest/index.html): Machine learning–based inference toolkit for particle physics.
+
+Unmaintained:
+- [`pydelfi`](https://github.com/justinalsing/pydelfi) [[Paper]](https://arxiv.org/abs/1903.00007)[[Docs]](https://pydelfi.readthedocs.io/en/latest/intro.html): Density Estimation Likelihood-Free Inference (DELFI) with neural density estimators and adaptive acquisition of simulations.
+- [`carl`](https://github.com/diana-hep/carl) [[Paper]](https://joss.theoj.org/papers/10.21105/joss.00011)[[Docs]](http://diana-hep.org/carl/): An early toolbox for neural network-based likelihood-free inference in Python.
+
+## Review Papers
+
+- **The frontier of simulation-based inference** [[arXiv]](https://arxiv.org/abs/1911.01429)  
+Kyle Cranmer, Johann Brehmer, Gilles Louppe
 
 ## Links
 
-# Theory and methods
+# Theory and Methods
 
 - **Monte Carlo Techniques for Addressing Large Errors and Missing Data in Simulation-based Inference** [[arXiv]](https://arxiv.org/abs/2211.03747)  
 Bingjie Wang, Joel Leja, Ashley Villar, Joshua S. Speagle
