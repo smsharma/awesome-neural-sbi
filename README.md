@@ -4,6 +4,14 @@ A community-sourced list of papers and resources on neural simulation-based infe
 
 # Code and resources
 
+- [`sbi`](https://github.com/mackelab/sbi) [[Paper]](https://joss.theoj.org/papers/10.21105/joss.02505)
+- [`sbibm`](https://github.com/sbi-benchmark/sbibm) [[Paper]](https://arxiv.org/abs/2101.04653)
+- [`swyft`](https://github.com/undark-lab/swyft) [[Paper]](https://joss.theoj.org/papers/10.21105/joss.04205)
+- [`lampe`](https://github.com/francois-rozet/lampe) 
+- [`MadMiner`](https://github.com/madminer-tool/madminer) [[Paper]](https://arxiv.org/abs/1907.10621)
+- [`pydelfi`](https://github.com/justinalsing/pydelfi) [[Paper]](https://arxiv.org/abs/1903.00007)
+- [`carl`](https://github.com/diana-hep/carl) [[Paper]](https://joss.theoj.org/papers/10.21105/joss.00011)
+  
 ## Code packages and benchmarks
 
 ## Review papers
