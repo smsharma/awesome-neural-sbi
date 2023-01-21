@@ -1,6 +1,6 @@
-# Awesome Neural SBI<!-- omit from toc -->
+# Awesome Neural SBI (WiP)<!-- omit from toc -->
 
-A community-sourced list of papers and resources on neural simulation-based inference.
+A community-sourced list of papers and resources on neural simulation-based inference. Contributions welcome!
 
 # Contents
 
@@ -8,15 +8,15 @@ A community-sourced list of papers and resources on neural simulation-based infe
 - [Software and Resources](#software-and-resources)
   - [Code Packages and Benchmarks](#code-packages-and-benchmarks)
   - [Review Papers](#review-papers)
-  - [Links/Discovery](#linksdiscovery)
-- [Papers](#papers)
-  - [Theory and Methods](#theory-and-methods)
+  - [Discovery](#discovery)
+- [Papers: Methods and Use-Inspired](#papers-methods-and-use-inspired)
+- [Papers: Application](#papers-application)
   - [Cosmology, Astrophysics, and Astronomy](#cosmology-astrophysics-and-astronomy)
   - [Particle Physics](#particle-physics)
   - [Neuroscience](#neuroscience)
   - [Evolutionary Biology and Genetics](#evolutionary-biology-and-genetics)
   - [Other Applications](#other-applications)
-  - [Applications to Real Data](#applications-to-real-data)
+  - [Application to Real Data](#application-to-real-data)
 
 # Software and Resources
   
@@ -27,24 +27,20 @@ A community-sourced list of papers and resources on neural simulation-based infe
 - `swyft` [[Code]](https://github.com/undark-lab/swyft) [[Docs]](https://swyft.readthedocs.io/en/latest/) [[Paper]](https://joss.theoj.org/papers/10.21105/joss.04205): Official implementation of Truncated Marginal Neural Ratio Estimation (TMNRE), a hyper-efficient, simulation-based inference technique for complex data and expensive simulators. 
 - `lampe` [[Code]](https://github.com/francois-rozet/lampe) [[Docs]](https://francois-rozet.github.io/lampe/): Likelihood-free AMortized Posterior Estimation with PyTorch.
 - `MadMiner` [[Code]](https://github.com/madminer-tool/madminer) [[Docs]](https://madminer.readthedocs.io/en/latest/index.html) [[Paper]](https://arxiv.org/abs/1907.10621): Machine learning–based inference toolkit for particle physics.
-
-**Legacy packages**:
-- `pydelfi` [[Code]](https://github.com/justinalsing/pydelfi) [[Docs]](https://pydelfi.readthedocs.io/en/latest/intro.html) [[Paper]](https://arxiv.org/abs/1903.00007): Density Estimation Likelihood-Free Inference (DELFI) with neural density estimators and adaptive acquisition of simulations.
-- `carl` [[Code]](https://github.com/diana-hep/carl) [[Docs]](http://diana-hep.org/carl/) [[Paper]](https://joss.theoj.org/papers/10.21105/joss.00011): An early toolbox for neural network-based likelihood-free inference in Python.
+- `pydelfi` (Legacy) [[Code]](https://github.com/justinalsing/pydelfi) [[Docs]](https://pydelfi.readthedocs.io/en/latest/intro.html) [[Paper]](https://arxiv.org/abs/1903.00007): Early implementation of Density Estimation Likelihood-Free Inference (DELFI) with neural density estimators and adaptive acquisition of simulations.
+- `carl` (Legacy) [[Code]](https://github.com/diana-hep/carl) [[Docs]](http://diana-hep.org/carl/) [[Paper]](https://joss.theoj.org/papers/10.21105/joss.00011): An early toolbox for neural network-based likelihood-free inference in Python.
 
 ## Review Papers
 
 - **The frontier of simulation-based inference** [[arXiv]](https://arxiv.org/abs/1911.01429)  
 Kyle Cranmer, Johann Brehmer, Gilles Louppe
 
-## Links/Discovery
+## Discovery
 
 - [arXiv search](https://arxiv.org/search/advanced?advanced=1&terms-0-operator=AND&terms-0-term=%22simulation-based+inference%22+&terms-0-field=all&terms-1-operator=OR&terms-1-term=%22likelihood-free+inference%22&terms-1-field=all&classification-computer_science=y&classification-mathematics=y&classification-physics=y&classification-physics_archives=all&classification-q_biology=y&classification-statistics=y&classification-include_cross_list=include&date-filter_by=all_dates&date-year=&date-from_date=&date-to_date=&date-date_type=submitted_date&abstracts=show&size=50&order=-announced_date_first) for "simulation-based inference" or "likelihood-free inference"
 - [Google Scholar search](https://scholar.google.com/scholar?hl=en&scisbd=1&as_sdt=0%2C22&q=%22simulation-based+inference%22+OR+%22likelihood-free+inference%22&btnG=) for "simulation-based inference" or "likelihood-free inference"
 
-# Papers
-
-## Theory and Methods
+# Papers: Methods and Use-Inspired
 
 - **Monte Carlo Techniques for Addressing Large Errors and Missing Data in Simulation-based Inference** [[arXiv]](https://arxiv.org/abs/2211.03747)  
 Bingjie Wang, Joel Leja, Ashley Villar, Joshua S. Speagle
@@ -181,6 +177,8 @@ George Papamakarios, Iain Murray
 - **Approximating Likelihood Ratios with Calibrated Discriminative Classifiers** [[arXiv]](https://arxiv.org/abs/1506.02169)  
 Kyle Cranmer, Juan Pavez, Gilles Louppe
 
+# Papers: Application
+
 ## Cosmology, Astrophysics, and Astronomy
 
 ## Particle Physics
@@ -191,7 +189,7 @@ Kyle Cranmer, Juan Pavez, Gilles Louppe
 
 ## Other Applications
 
-## Applications to Real Data
+## Application to Real Data
 Applications of neural simulation-based inference to real data.
 
 - **SIMBIG : A Forward Modeling Approach To Analyzing Galaxy Clustering** [[arXiv]](https://arxiv.org/abs/2211.00723)  
