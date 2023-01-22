@@ -1,7 +1,11 @@
+<h1 align="center">
 # Awesome Neural SBI<!-- omit from toc -->
+</h1>
 
+<h4 align="center">
 [![License: MIT](https://img.shields.io/badge/License-MIT-red.svg)](https://opensource.org/licenses/MIT)
 [![Pull requests welcome](https://img.shields.io/badge/Pull%20Requests-welcome-green.svg?logo=github)](./)
+</h4>
 
 A community-sourced list of papers and resources on neural simulation-based inference, covering both methodological developments and domain applications. Given the nature of the field, the list is bound to be highly incomplete -- contributions are welcome!
 
@@ -72,6 +76,9 @@ Louis Sharrock, Jack Simons, Song Liu, Mark Beaumont
 
 - **Truncated proposals for scalable and hassle-free simulation-based inference** [[arXiv]](https://arxiv.org/abs/2210.04815)  
 Michael Deistler, Pedro J Goncalves, Jakob H Macke
+
+- **New Machine Learning Techniques for Simulation-Based Inference: InferoStatic Nets, Kernel Score Estimation, and Kernel Likelihood Ratio Estimation** [[arXiv]](https://arxiv.org/abs/2210.01680)  
+Kyoungchul Kong, Konstantin T. Matchev, Stephen Mrenna, Prasanth Shyamsundar
 
 - **Score Modeling for Simulation-based Inference** [[arXiv]](https://arxiv.org/abs/2209.01845)  
 Tomas Geffner, George Papamakarios, Andriy Mnih
@@ -186,6 +193,9 @@ Kyle Cranmer, Juan Pavez, Gilles Louppe
 
 ## Cosmology, Astrophysics, and Astronomy
 
+- **Neural posterior estimation for exoplanetary atmospheric retrieval** [[arXiv]](https://arxiv.org/abs/2301.06575)  
+Malavika Vasist, François Rozet, Olivier Absil, Paul Mollière, Evert Nasedkin, Gilles Louppe
+
 - **Debiasing Standard Siren Inference of the Hubble Constant with Marginal Neural Ratio Estimation** [[arXiv]](https://arxiv.org/abs/2301.05241)  
 Samuel Gagnon-Hartman, John Ruan, Daryl Haggard
 
@@ -299,6 +309,9 @@ Pedro J Gonçalves et al
 Stefan T. Radev, Andreas Voss, Eva Marie Wieschen, Paul-Christian Bürkner
 
 ## Health and Medicine
+
+- **Mutation rate, selection, and epistasis inferred from RNA virus haplotypes via neural posterior estimation** [[bioRxiv]](https://www.biorxiv.org/content/10.1101/2023.01.09.523230v1.abstract)  
+Itamar Caspi, Moran Meir, Nadav Ben Nun, Uri Yakhini, Adi Stern,  Yoav Ram
 
 - **Simulation-Based Inference for Whole-Brain Network Modeling of Epilepsy using Deep Neural Density Estimators** [[medRxiv]](https://www.medrxiv.org/content/10.1101/2022.06.02.22275860v1)  
 Meysam Hashemi, Anirudh N. Vattikonda, Jayant Jha, Viktor Sip, Marmaduke M. Woodman, Fabrice Bartolomei, Viktor K. Jirsa
