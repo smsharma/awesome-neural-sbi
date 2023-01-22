@@ -1,5 +1,5 @@
 <h1 align="center">
-# Awesome Neural SBI<!-- omit from toc -->
+Awesome Neural SBI<!-- omit from toc -->
 </h1>
 
 <h4 align="center">
