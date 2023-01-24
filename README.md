@@ -350,5 +350,8 @@ ChangHoon Hahn et al
 - **A neural simulation-based inference approach for characterizing the Galactic Center γ-ray excess** [[arXiv]](https://arxiv.org/abs/2110.06931)  
 Siddharth Mishra-Sharma, Kyle Cranmer
 
+- **Towards constraining warm dark matter with stellar streams through neural simulation-based inference** *(Preliminary)* [[arXiv]](https://arxiv.org/abs/2011.14923)  
+Joeri Hermans, Nilanjan Banik, Christoph Weniger, Gianfranco Bertone, Gilles Louppe
+
 - **Likelihood-free inference with neural compression of DES SV weak lensing map statistics** [[arXiv]](https://arxiv.org/abs/2009.08459)  
 Niall Jeffrey, Justin Alsing, François Lanusse
