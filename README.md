@@ -81,7 +81,7 @@ Michael Deistler, Pedro J Goncalves, Jakob H Macke
 - **New Machine Learning Techniques for Simulation-Based Inference: InferoStatic Nets, Kernel Score Estimation, and Kernel Likelihood Ratio Estimation** [[arXiv]](https://arxiv.org/abs/2210.01680)  
 Kyoungchul Kong, Konstantin T. Matchev, Stephen Mrenna, Prasanth Shyamsundar
 
-- **Score Modeling for Simulation-based Inference** [[arXiv]](https://arxiv.org/abs/2209.01845)  
+- **Score Modeling for Simulation-based Inference** [[arXiv]](https://arxiv.org/abs/2209.14249)  
 Tomas Geffner, George Papamakarios, Andriy Mnih
 
 - **Investigating the Impact of Model Misspecification in Neural Simulation-based Inference** [[arXiv]](https://arxiv.org/abs/2209.01845)  
