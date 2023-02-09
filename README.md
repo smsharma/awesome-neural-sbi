@@ -51,6 +51,12 @@ Kyle Cranmer, Johann Brehmer, Gilles Louppe
 # Papers: Methods
 *Methodological and use-inspired papers. Listed in reverse-chronological order.*
 
+- **Sampling-Based Accuracy Testing of Posterior Estimators for General Inference** [[arXiv]](https://arxiv.org/abs/2302.03026)  
+Pablo Lemos, Adam Coogan, Yashar Hezaveh, Laurence Perreault-Levasseur
+
+- **Misspecification-robust Sequential Neural Likelihood** [[arXiv]](https://arxiv.org/abs/2301.13368)  
+Ryan P. Kelly, David J. Nott, David T. Frazier, David J. Warne, Chris Drovandi
+
 - **Monte Carlo Techniques for Addressing Large Errors and Missing Data in Simulation-based Inference** [[arXiv]](https://arxiv.org/abs/2211.03747)  
 Bingjie Wang, Joel Leja, Ashley Villar, Joshua S. Speagle
 
@@ -299,6 +305,9 @@ Atılım Güneş Baydin et al
 Johann Brehmer, Kyle Cranmer, Gilles Louppe, Juan Pavez
 
 ## Neuroscience
+
+- **Simulation-based inference for efficient identification of generative models in computational connectomics** [[bioRxiv]](https://www.biorxiv.org/content/10.1101/2023.01.31.526269v1.abstract)  
+Jan Boelts, Philipp Harth, Richard Gao, Daniel Udvary, Felipe Yáñez, Daniel Baum, Hans-Christian Hege, Marcel Oberlaender, Jakob H. Macke
 
 - **Likelihood approximation networks (LANs) for fast inference of simulation models in cognitive neuroscience** [[Paper]](https://elifesciences.org/articles/65074)  
 Alexander Fengler, Lakshmi N Govindarajan, Tony Chen, Michael J Frank
