@@ -290,6 +290,9 @@ Johann Brehmer, Siddharth Mishra-Sharma, Joeri Hermans, Gilles Louppe, Kyle Cran
 - **Fast likelihood-free cosmology with neural density estimators and active learning** [[arXiv]](https://arxiv.org/abs/1903.00007)  
 Justin Alsing, Tom Charnock, Stephen Feeney, Benjamin Wandelt
 
+- **Investigating the turbulent hot gas in X-COP galaxy clusters** [[arXiv]](https://arxiv.org/abs/2303.15102)  
+Simon Dupourqué, Nicolas Clerc, Etienne Pointecouteau, Dominique Eckert, Stefano Ettori, Franco Vazza
+
 ## Particle Physics
 
 - **Simulation-based inference methods for particle physics** [[arXiv]](https://arxiv.org/abs/2010.06439)  
