@@ -200,8 +200,17 @@ Kyle Cranmer, Juan Pavez, Gilles Louppe
 
 ## Cosmology, Astrophysics, and Astronomy
 
+- **Peregrine: Sequential simulation-based inference for gravitational wave signals** [[arXiv]](https://arxiv.org/abs/2304.02035)  
+Uddipta Bhardwaj, James Alvey, Benjamin Kurt Miller, Samaya Nissanke, Christoph Weniger
+
+- **Albatross: A scalable simulation-based inference pipeline for analysing stellar streams in the Milky Way** [[arXiv]](https://arxiv.org/abs/2304.02032)  
+James Alvey, Mathis Gerdes, Christoph Weniger
+
 - **Investigating the turbulent hot gas in X-COP galaxy clusters** [[arXiv]](https://arxiv.org/abs/2303.15102)  
 Simon Dupourqué, Nicolas Clerc, Etienne Pointecouteau, Dominique Eckert, Stefano Ettori, Franco Vazza
+
+- **Constraining the X-ray heating and reionization using 21-cm power spectra with Marginal Neural Ratio Estimation** [[arXiv]](https://arxiv.org/abs/2303.07339)  
+Anchal Saxena, Alex Cole, Simon Gazagnes, P. Daniel Meerburg, Christoph Weniger, Samuel J. Witte
 
 - **Neural posterior estimation for exoplanetary atmospheric retrieval** [[arXiv]](https://arxiv.org/abs/2301.06575)  
 Malavika Vasist, François Rozet, Olivier Absil, Paul Mollière, Evert Nasedkin, Gilles Louppe
@@ -308,6 +317,9 @@ Atılım Güneş Baydin et al
 Johann Brehmer, Kyle Cranmer, Gilles Louppe, Juan Pavez
 
 ## Neuroscience
+
+- **Simulation-based Inference for Model Parameterization on Analog Neuromorphic Hardware** [[arXiv]](https://arxiv.org/abs/2303.16056)  
+Jakob Kaiser, Raphael Stock, Eric Müller, Johannes Schemmel, Sebastian Schmitt
 
 - **Simulation-based inference for efficient identification of generative models in computational connectomics** [[bioRxiv]](https://www.biorxiv.org/content/10.1101/2023.01.31.526269v1.abstract)  
 Jan Boelts, Philipp Harth, Richard Gao, Daniel Udvary, Felipe Yáñez, Daniel Baum, Hans-Christian Hege, Marcel Oberlaender, Jakob H. Macke
