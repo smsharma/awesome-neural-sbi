@@ -200,6 +200,9 @@ Kyle Cranmer, Juan Pavez, Gilles Louppe
 
 ## Cosmology, Astrophysics, and Astronomy
 
+- **The likelihood of the 21-cm power spectrum** [[arXiv]](https://arxiv.org/abs/2305.03074)  
+David Prelogović, Andrei Mesinger
+
 - **Peregrine: Sequential simulation-based inference for gravitational wave signals** [[arXiv]](https://arxiv.org/abs/2304.02035)  
 Uddipta Bhardwaj, James Alvey, Benjamin Kurt Miller, Samaya Nissanke, Christoph Weniger
 
