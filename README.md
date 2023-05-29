@@ -5,7 +5,7 @@ Awesome Neural SBI<!-- omit from toc -->
 <h4 align="center">
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-red.svg)](https://opensource.org/licenses/MIT)
-[![Pull requests welcome](https://img.shields.io/badge/Pull%20Requests-welcome-green.svg?logo=github)](https://github.com/smsharma/awesome-neural-sbi)
+[![Pull requests welcome](https://img.shields.io/badge/Pull%20Requests-welcome-green.svg?logo=github)](https://github.com/smsharma/awesome-neural-sbi/pulls)
 </h4>
 
 A community-sourced list of papers and resources on neural simulation-based inference, covering both methodological developments and domain applications. Given the nature of the field, the list is bound to be highly incomplete -- contributions are welcome!
@@ -108,7 +108,7 @@ Michael Deistler, Pedro J Goncalves, Jakob H Macke
 - **New Machine Learning Techniques for Simulation-Based Inference: InferoStatic Nets, Kernel Score Estimation, and Kernel Likelihood Ratio Estimation** [[arXiv]](https://arxiv.org/abs/2210.01680)  
 Kyoungchul Kong, Konstantin T. Matchev, Stephen Mrenna, Prasanth Shyamsundar
 
-- **Score Modeling for Simulation-based Inference** [[arXiv]](https://arxiv.org/abs/2209.14249)  
+- **Compositional Score Modeling for Simulation-based Inference** [[arXiv]](https://arxiv.org/abs/2209.14249)  
 Tomas Geffner, George Papamakarios, Andriy Mnih
 
 - **Investigating the Impact of Model Misspecification in Neural Simulation-based Inference** [[arXiv]](https://arxiv.org/abs/2209.01845)  
@@ -404,7 +404,7 @@ Grace Avecilla, Julie N. Chuong, Fangfei Li, Gavin Sherlock, David Gresham, Yoav
 ## Application to Real Data
 *Applications of neural simulation-based inference beyond synthetic data.*
 
-- **SIMBIG : A Forward Modeling Approach To Analyzing Galaxy Clustering** [[arXiv]](https://arxiv.org/abs/2211.00723)  
+- **SimBIG : A Forward Modeling Approach To Analyzing Galaxy Clustering** [[arXiv]](https://arxiv.org/abs/2211.00723)  
 ChangHoon Hahn et al
 
 - **A neural simulation-based inference approach for characterizing the Galactic Center γ-ray excess** [[arXiv]](https://arxiv.org/abs/2110.06931)  
