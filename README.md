@@ -345,6 +345,9 @@ Johann Brehmer, Kyle Cranmer, Gilles Louppe, Juan Pavez
 
 ## Neuroscience
 
+- **Methods and considerations for estimating parameters in biophysically detailed neural models with simulation based inference** [[bioRxiv]](https://www.biorxiv.org/content/10.1101/2023.04.17.537118v1.abstract)  
+Nicholas Tolley, Pedro L. C. Rodrigues, Alexandre Gramfort, Stephanie Jones
+
 - **Simulation-based Inference for Model Parameterization on Analog Neuromorphic Hardware** [[arXiv]](https://arxiv.org/abs/2303.16056)  
 Jakob Kaiser, Raphael Stock, Eric Müller, Johannes Schemmel, Sebastian Schmitt
 
