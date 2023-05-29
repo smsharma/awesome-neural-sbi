@@ -66,6 +66,9 @@ Yuling Yao, Justin Domke
 - **Variational Inference with Coverage Guarantees** [[arXiv]](https://arxiv.org/abs/2305.14275)  
 Yash Patel, Declan McNamara, Jackson Loper, Jeffrey Regier, Ambuj Tewari
 
+- **Disentangled Multi-Fidelity Deep Bayesian Active Learning** [[arXiv]](https://arxiv.org/abs/2305.04392)  
+Dongxia Wu, Ruijia Niu, Matteo Chinazzi, Yian Ma, Rose Yu
+
 - **Balancing Simulation-based Inference for Conservative Posteriors** [[arXiv]](https://arxiv.org/abs/2304.10978)  
 Arnaud Delaunoy, Benjamin Kurt Miller, Patrick Forré, Christoph Weniger, Gilles Louppe
 
