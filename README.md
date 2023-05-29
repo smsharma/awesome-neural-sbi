@@ -51,6 +51,24 @@ Kyle Cranmer, Johann Brehmer, Gilles Louppe
 # Papers: Methods
 *Methodological and use-inspired papers. Listed in reverse-chronological order.*
 
+- **Learning Robust Statistics for Simulation-based Inference under Model Misspecification** [[arXiv]](https://arxiv.org/abs/2305.15871)  
+Daolang Huang, Ayush Bharti, Amauri Souza, Luigi Acerbi, Samuel Kaski
+
+- **Generalized Bayesian Inference for Scientific Simulators via Amortized Cost Estimation** [[arXiv]](https://arxiv.org/abs/2305.15208)  
+Richard Gao, Michael Deistler, Jakob H. Macke
+
+- **Simultaneous identification of models and parameters of scientific simulators** [[arXiv]](https://arxiv.org/abs/2305.15174)  
+Cornelius Schröder, Jakob H. Macke
+
+- **Discriminative calibration** [[arXiv]](https://arxiv.org/abs/2305.14593)  
+Yuling Yao, Justin Domke
+
+- **Variational Inference with Coverage Guarantees** [[arXiv]](https://arxiv.org/abs/2305.14275)  
+Yash Patel, Declan McNamara, Jackson Loper, Jeffrey Regier, Ambuj Tewari
+
+- **Balancing Simulation-based Inference for Conservative Posteriors** [[arXiv]](https://arxiv.org/abs/2304.10978)  
+Arnaud Delaunoy, Benjamin Kurt Miller, Patrick Forré, Christoph Weniger, Gilles Louppe
+
 - **Sampling-Based Accuracy Testing of Posterior Estimators for General Inference** [[arXiv]](https://arxiv.org/abs/2302.03026)  
 Pablo Lemos, Adam Coogan, Yashar Hezaveh, Laurence Perreault-Levasseur
 
@@ -203,6 +221,12 @@ Kyle Cranmer, Juan Pavez, Gilles Louppe
 - **The likelihood of the 21-cm power spectrum** [[arXiv]](https://arxiv.org/abs/2305.03074)  
 David Prelogović, Andrei Mesinger
 
+- **The angular power spectrum of gravitational-wave transient sources as a probe of the large-scale structure** [[arXiv]](https://arxiv.org/abs/2305.02652)  
+Yanyan Zheng, Nikolaos Kouvatsos, Jacob Golomb, Marco Cavaglià, Arianna I. Renzini, Mairi Sakellariadou
+
+- **SBI++: Flexible, Ultra-fast Likelihood-free Inference Customized for Astronomical Application** [[arXiv]](https://arxiv.org/abs/2304.05281)  
+Bingjie Wang, Joel Leja, V. Ashley Villar, Joshua S. Speagle
+
 - **Peregrine: Sequential simulation-based inference for gravitational wave signals** [[arXiv]](https://arxiv.org/abs/2304.02035)  
 Uddipta Bhardwaj, James Alvey, Benjamin Kurt Miller, Samaya Nissanke, Christoph Weniger
 
@@ -349,6 +373,9 @@ Christian Schroeder de Witt et al
 
 ## Other Domains
 *Applications where multiple papers could not be grouped under a single heading.*
+
+- **Graph-informed simulation-based inference for models of active matter** [[arXiv]](https://arxiv.org/abs/2304.06806)  
+Namid R. Stillman, Silke Henkes, Roberto Mayor, Gilles Louppe
 
 - **Simulation-based inference of single-molecule force spectroscopy** [[arXiv]](https://arxiv.org/abs/2209.10392)  
 Lars Dingeldein, Pilar Cossio, Roberto Covino
