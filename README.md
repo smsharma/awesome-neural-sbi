@@ -46,10 +46,19 @@ Kyle Cranmer, Johann Brehmer, Gilles Louppe
 
 - [arXiv search](https://arxiv.org/search/advanced?advanced=1&terms-0-operator=AND&terms-0-term=%22simulation-based+inference%22+&terms-0-field=all&terms-1-operator=OR&terms-1-term=%22likelihood-free+inference%22&terms-1-field=all&classification-computer_science=y&classification-mathematics=y&classification-physics=y&classification-physics_archives=all&classification-q_biology=y&classification-statistics=y&classification-include_cross_list=include&date-filter_by=all_dates&date-year=&date-from_date=&date-to_date=&date-date_type=submitted_date&abstracts=show&size=50&order=-announced_date_first) for "simulation-based inference" or "likelihood-free inference"
 - [Google Scholar search](https://scholar.google.com/scholar?hl=en&scisbd=1&as_sdt=0%2C22&q=%22simulation-based+inference%22+OR+%22likelihood-free+inference%22&btnG=) for "simulation-based inference" or "likelihood-free inference"
-- [simulation-based-inference.org](http://simulation-based-inference.org/)
+- [simulation-based-inference.org](http://simulation-based-inference.org/): Community resources on simulation-based inference, including an automatically-compiled [list of papers](http://simulation-based-inference.org/papers/).
 
 # Papers: Methods
 *Methodological and use-inspired papers. Listed in reverse-chronological order.*
+
+- **Hierarchical Neural Simulation-Based Inference Over Event Ensembles** [[arXiv]](https://arxiv.org/abs/2306.12584)  
+Lukas Heinrich, Siddharth Mishra-Sharma, Chris Pollard, Philipp Windischhofer
+
+- **L-C2ST: Local Diagnostics for Posterior Approximations in Simulation-Based Inference** [[arXiv]](https://arxiv.org/abs/2306.03580)  
+Julia Linhart, Alexandre Gramfort, Pedro L. C. Rodrigues
+
+- **Flow Matching for Scalable Simulation-Based Inference** [[arXiv]](https://arxiv.org/abs/2305.17161)  
+Maximilian Dax, Jonas Wildberger, Simon Buchholz, Stephen R. Green, Jakob H. Macke, Bernhard Schölkopf
 
 - **Learning Robust Statistics for Simulation-based Inference under Model Misspecification** [[arXiv]](https://arxiv.org/abs/2305.15871)  
 Daolang Huang, Ayush Bharti, Amauri Souza, Luigi Acerbi, Samuel Kaski
@@ -220,6 +229,9 @@ Kyle Cranmer, Juan Pavez, Gilles Louppe
 *Domain application of neural simulation-based inference. Papers listed in reverse-chronological order.*
 
 ## Cosmology, Astrophysics, and Astronomy
+
+- **Neural Posterior Estimation with guaranteed exact coverage: the ringdown of GW150914** [[arXiv]](https://arxiv.org/abs/2305.18528)  
+Marco Crisostomi, Kallol Dey, Enrico Barausse, Roberto Trotta
 
 - **The likelihood of the 21-cm power spectrum** [[arXiv]](https://arxiv.org/abs/2305.03074)  
 David Prelogović, Andrei Mesinger
