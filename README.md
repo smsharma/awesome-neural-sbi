@@ -46,7 +46,7 @@ Kyle Cranmer, Johann Brehmer, Gilles Louppe
 
 - [arXiv search](https://arxiv.org/search/advanced?advanced=1&terms-0-operator=AND&terms-0-term=%22simulation-based+inference%22+&terms-0-field=all&terms-1-operator=OR&terms-1-term=%22likelihood-free+inference%22&terms-1-field=all&classification-computer_science=y&classification-mathematics=y&classification-physics=y&classification-physics_archives=all&classification-q_biology=y&classification-statistics=y&classification-include_cross_list=include&date-filter_by=all_dates&date-year=&date-from_date=&date-to_date=&date-date_type=submitted_date&abstracts=show&size=50&order=-announced_date_first) for "simulation-based inference" or "likelihood-free inference"
 - [Google Scholar search](https://scholar.google.com/scholar?hl=en&scisbd=1&as_sdt=0%2C22&q=%22simulation-based+inference%22+OR+%22likelihood-free+inference%22&btnG=) for "simulation-based inference" or "likelihood-free inference"
-- [simulation-based-inference.org](http://simulation-based-inference.org/): Community resources on simulation-based inference, including an automatically-compiled [list of papers](http://simulation-based-inference.org/papers/).
+- [simulation-based-inference.org](http://simulation-based-inference.org/): Community resource on simulation-based inference, including an automatically-compiled [list of papers](http://simulation-based-inference.org/papers/).
 
 # Papers: Methods
 *Methodological and use-inspired papers. Listed in reverse-chronological order.*
