@@ -51,6 +51,12 @@ Kyle Cranmer, Johann Brehmer, Gilles Louppe
 # Papers: Methods
 *Methodological and use-inspired papers. Listed in reverse-chronological order.*
 
+- **Simulation-based Inference with the Generalized Kullback-Leibler Divergence** [[Paper]](https://syns-ml.github.io/2023/assets/papers/27.pdf)  
+Benjamin Kurt Miller, Marco Federici, Christoph Weniger, Patrick Forré
+
+- **Simulation-based inference using surjective sequential neural likelihood estimation** [[arXiv]](https://arxiv.org/abs/2308.01054)  
+Simon Dirmeier, Carlo Albert, Fernando Perez-Cruz
+
 - **Hierarchical Neural Simulation-Based Inference Over Event Ensembles** [[arXiv]](https://arxiv.org/abs/2306.12584)  
 Lukas Heinrich, Siddharth Mishra-Sharma, Chris Pollard, Philipp Windischhofer
 
@@ -230,6 +236,9 @@ Kyle Cranmer, Juan Pavez, Gilles Louppe
 
 ## Cosmology, Astrophysics, and Astronomy
 
+- **What to do when things get crowded? Scalable joint analysis of overlapping gravitational wave signals** [[arXiv]](https://arxiv.org/abs/2308.06318)  
+James Alvey, Uddipta Bhardwaj, Samaya Nissanke, Christoph Weniger
+
 - **Neural Posterior Estimation with guaranteed exact coverage: the ringdown of GW150914** [[arXiv]](https://arxiv.org/abs/2305.18528)  
 Marco Crisostomi, Kallol Dey, Enrico Barausse, Roberto Trotta
 
@@ -346,6 +355,12 @@ Justin Alsing, Tom Charnock, Stephen Feeney, Benjamin Wandelt
 
 ## Particle Physics
 
+- **Simulation-based inference in the search for CP violation in leptonic WH production** [[arXiv]](https://arxiv.org/abs/2308.02882)  
+Ricardo Barrué, Patricia Conde-Muíño, Valerio Dao, Rui Santos
+
+- **Reconstructing axion-like particles from beam dumps with simulation-based inference** [[arXiv]](https://arxiv.org/abs/2308.01353)  
+Alessandro Morandini, Torben Ferber, Felix Kahlhoefer
+
 - **Simulation-based inference methods for particle physics** [[arXiv]](https://arxiv.org/abs/2010.06439)  
 Johann Brehmer, Kyle Cranmer
 
@@ -379,6 +394,9 @@ Pedro J Gonçalves et al
 Stefan T. Radev, Andreas Voss, Eva Marie Wieschen, Paul-Christian Bürkner
 
 ## Health and Medicine
+
+- **Simulation-based Inference for Cardiovascular Models** [[arXiv]](https://arxiv.org/abs/2307.13918)    
+Antoine Wehenkel, Jens Behrmann, Andrew C. Miller, Guillermo Sapiro, Ozan Sener, Marco Cuturi, Jörn-Henrik Jacobsen
 
 - **Mutation rate, selection, and epistasis inferred from RNA virus haplotypes via neural posterior estimation** [[bioRxiv]](https://www.biorxiv.org/content/10.1101/2023.01.09.523230v1.abstract)  
 Itamar Caspi, Moran Meir, Nadav Ben Nun, Uri Yakhini, Adi Stern,  Yoav Ram
