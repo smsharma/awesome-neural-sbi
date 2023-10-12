@@ -51,8 +51,20 @@ Kyle Cranmer, Johann Brehmer, Gilles Louppe
 # Papers: Methods
 *Methodological and use-inspired papers. Listed in reverse-chronological order.*
 
-- **Simulation-based Inference with the Generalized Kullback-Leibler Divergence** [[Paper]](https://syns-ml.github.io/2023/assets/papers/27.pdf)  
+- **Simulation-based Inference with the Generalized Kullback-Leibler Divergence** [[arXiv]](https://arxiv.org/abs/2310.01808)  
 Benjamin Kurt Miller, Marco Federici, Christoph Weniger, Patrick Forré
+
+- **Data assimilation as simulation-based inference** [[Master thesis]](https://matheo.uliege.be/handle/2268.2/18255)
+Gérôme Andry, Gilles Louppe
+
+- **A transport approach to sequential simulation-based inference** [[arXiv]](https://arxiv.org/abs/2308.13940)  
+Paul-Baptiste Rubio, Youssef Marzouk, Matthew Parno
+
+- **Kernel-Based Tests for Likelihood-Free Hypothesis Testing** [[arXiv]](https://arxiv.org/abs/2308.09043)  
+Patrik Róbert Gerber, Tianze Jiang, Yury Polyanskiy, Rui Sun
+
+- **Scalable inference with Autoregressive Neural Ratio Estimation** [[arXiv]](https://arxiv.org/abs/2308.08597)  
+Noemi Anau Montel, James Alvey, Christoph Weniger
 
 - **Simulation-based inference using surjective sequential neural likelihood estimation** [[arXiv]](https://arxiv.org/abs/2308.01054)  
 Simon Dirmeier, Carlo Albert, Fernando Perez-Cruz
@@ -235,6 +247,24 @@ Kyle Cranmer, Juan Pavez, Gilles Louppe
 *Domain application of neural simulation-based inference. Papers listed in reverse-chronological order.*
 
 ## Cosmology, Astrophysics, and Astronomy
+
+- **HaloFlow I: Neural Inference of Halo Mass from Galaxy Photometry and Morphology** [[arXiv]](https://arxiv.org/abs/2310.04503)  
+ChangHoon Hahn, Connor Bottrell, Khee-Gan Lee
+
+- **EFTofLSS meets simulation-based inference: σ8 from biased tracers** [[arXiv]](https://arxiv.org/abs/2310.03741)  
+Beatriz Tucci, Fabian Schmidt
+
+- **Sensitivity Analysis of Simulation-Based Inference for Galaxy Clustering** [[arXiv]](https://arxiv.org/abs/2309.15071)  
+Chirag Modi, Shivam Pandey, Matthew Ho, ChangHoon Hahn, Bruno Regaldo-Saint Blancard, Benjamin Wandelt
+
+- **Hybrid SBI or How I Learned to Stop Worrying and Learn the Likelihood** [[arXiv]](https://arxiv.org/abs/2309.10270)  
+Chirag Modi, Oliver H. E. Philcox
+
+- **Simulation-based Inference for Exoplanet Atmospheric Retrieval: Insights from winning the Ariel Data Challenge 2023 using Normalizing Flows** [[arXiv]](https://arxiv.org/abs/2309.07954)  
+Mayeul Aubin et al
+
+- **Simulation-based inference for stochastic gravitational wave background data analysis** [[arXiv]](https://arxiv.org/abs/2309.09337)  
+ James Alvey, Uddipta Bhardwaj, Valerie Domcke, Mauro Pieroni, Christoph Weniger
 
 - **What to do when things get crowded? Scalable joint analysis of overlapping gravitational wave signals** [[arXiv]](https://arxiv.org/abs/2308.06318)  
 James Alvey, Uddipta Bhardwaj, Samaya Nissanke, Christoph Weniger
