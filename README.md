@@ -75,7 +75,7 @@ Maciej Falkiewicz, Naoya Takeishi, Imahn Shekhzadeh, Antoine Wehenkel, Arnaud De
 - **Simulation-based Inference with the Generalized Kullback-Leibler Divergence** [[arXiv]](https://arxiv.org/abs/2310.01808)  
 Benjamin Kurt Miller, Marco Federici, Christoph Weniger, Patrick Forré
 
-- **Data assimilation as simulation-based inference** [[Master thesis]](https://matheo.uliege.be/handle/2268.2/18255)
+- **Data assimilation as simulation-based inference** [[Master thesis]](https://matheo.uliege.be/handle/2268.2/18255) 
 Gérôme Andry, Gilles Louppe
 
 - **A transport approach to sequential simulation-based inference** [[arXiv]](https://arxiv.org/abs/2308.13940)  
