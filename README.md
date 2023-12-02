@@ -14,6 +14,7 @@ A community-sourced list of papers and resources on neural simulation-based infe
 
 - [Software and Resources](#software-and-resources)
   - [Code Packages and Benchmarks](#code-packages-and-benchmarks)
+  - [Tutorials](#tutorials)
   - [Review Papers](#review-papers)
   - [Discovery and Links](#discovery-and-links)
 - [Papers: Methods](#papers-methods)
@@ -33,9 +34,14 @@ A community-sourced list of papers and resources on neural simulation-based infe
 - `sbibm` [[Code]](https://github.com/sbi-benchmark/sbibm) [[Docs]](https://sbi-benchmark.github.io/) [[Paper]](https://arxiv.org/abs/2101.04653): Simulation-based inference benchmarking framework.
 - `swyft` [[Code]](https://github.com/undark-lab/swyft) [[Docs]](https://swyft.readthedocs.io/en/latest/) [[Paper]](https://joss.theoj.org/papers/10.21105/joss.04205): Official implementation of Truncated Marginal Neural Ratio Estimation (TMNRE), a hyper-efficient, simulation-based inference technique for complex data and expensive simulators. 
 - `lampe` [[Code]](https://github.com/francois-rozet/lampe) [[Docs]](https://lampe.readthedocs.io): Likelihood-free AMortized Posterior Estimation with PyTorch.
+- `sbijax` [[Code]](https://github.com/dirmeier/sbijax): Simulation-based inference in JAX.
 - `MadMiner` [[Code]](https://github.com/madminer-tool/madminer) [[Docs]](https://madminer.readthedocs.io/en/latest/index.html) [[Paper]](https://arxiv.org/abs/1907.10621): Machine learning–based inference toolkit for particle physics.
 - `pydelfi` [[Code]](https://github.com/justinalsing/pydelfi) [[Docs]](https://pydelfi.readthedocs.io/en/latest/intro.html) [[Paper]](https://arxiv.org/abs/1903.00007): Early implementation of Density Estimation Likelihood-Free Inference (DELFI) with neural density estimators and adaptive acquisition of simulations.
 - `carl` [[Code]](https://github.com/diana-hep/carl) [[Docs]](http://diana-hep.org/carl/) [[Paper]](https://joss.theoj.org/papers/10.21105/joss.00011): Early toolbox for neural network-based likelihood-free inference in Python.
+
+## Tutorials
+
+- [SBI Tutorial](https://github.com/smsharma/sbi-lecture-mit): A hands-on tutorial introducing basic SBI concepts and methods.
 
 ## Review Papers
 
@@ -50,6 +56,21 @@ Kyle Cranmer, Johann Brehmer, Gilles Louppe
 
 # Papers: Methods
 *Methodological and use-inspired papers. Listed in reverse-chronological order.*
+
+- **Pseudo-Likelihood Inference** [[arXiv]](https://arxiv.org/abs/2311.16656)  
+Theo Gruner, Boris Belousov, Fabio Muratore, Daniel Palenicek, Jan Peters
+
+- **Fuse It or Lose It: Deep Fusion for Multimodal Simulation-Based Inference** [[arXiv]](https://arxiv.org/abs/2311.10671)
+Marvin Schmitt, Stefan T. Radev, Paul-Christian Bürkner 
+
+- **Direct Amortized Likelihood Ratio Estimation** [[arXiv]](https://arxiv.org/abs/2311.10571)
+Adam D. Cobb, Brian Matejek, Daniel Elenius, Anirban Roy, Susmit Jha 
+
+- **Simulation based stacking** [[arXiv]](https://arxiv.org/abs/2310.17009)  
+Yuling Yao, Bruno Régaldo-Saint Blancard, Justin Domke
+
+- **Calibrating Neural Simulation-Based Inference with Differentiable Coverage Probability** [[arXiv]](https://arxiv.org/abs/2310.13402)  
+Maciej Falkiewicz, Naoya Takeishi, Imahn Shekhzadeh, Antoine Wehenkel, Arnaud Delaunoy, Gilles Louppe, Alexandros Kalousis
 
 - **Simulation-based Inference with the Generalized Kullback-Leibler Divergence** [[arXiv]](https://arxiv.org/abs/2310.01808)  
 Benjamin Kurt Miller, Marco Federici, Christoph Weniger, Patrick Forré
@@ -248,6 +269,33 @@ Kyle Cranmer, Juan Pavez, Gilles Louppe
 
 ## Cosmology, Astrophysics, and Astronomy
 
+- **Learning Reionization History from Quasars with Simulation-Based Inference** [[arXiv]](https://arxiv.org/abs/2311.16238)  
+Huanqing Chen, Joshua Speagle, Keir K. Rogers
+
+- **Simulation Based Inference of BNS Kilonova Properties: A Case Study with AT2017gfo** [[arXiv]](https://arxiv.org/abs/2311.09471)  
+Phelipe A. Darc, Clecio R. Bom, Bernardo M. O. Fraga, Charlie D. Kilpatrick
+
+- **Bayesian Simulation-based Inference for Cosmological Initial Conditions** [[arXiv]](https://arxiv.org/abs/2310.19910)  
+Florian List, Noemi Anau Montel, Christoph Weniger
+
+- **Simulation-based Inference of Reionization Parameters from 3D Tomographic 21 cm Light-cone Images -- II: Application of Solid Harmonic Wavelet Scattering Transform** [[arXiv]](https://arxiv.org/abs/2310.17602)  
+Xiaosheng Zhao, Yi Mao, Shifan Zuo, Benjamin D. Wandelt
+
+- **Dark Energy Survey Year 3 results: simulation-based cosmological inference with wavelet harmonics, scattering transforms, and moments of weak lensing mass maps I: validation on simulations** [[arXiv]](https://arxiv.org/abs/2310.17557)  
+M. Gatti, N. Jeffrey, L. Whiteway, J. Williamson, B. Jain, V. Ajani, D. Anbajagane, G. Giannini, C. Zhou, A. Porredon, J. Prat, M. Yamamoto, J. Blazek, T. Kacprzak, S. Samuroff, A. Alarcon, A. Amon, K. Bechtol, M. Becker, G. Bernstein, A. Campos, C. Chang, R. Chen, A. Choi, C. Davis , et al.
+
+- **SimBIG: Field-level Simulation-Based Inference of Galaxy Clustering** [[arXiv]](https://arxiv.org/abs/2310.15256)  
+Pablo Lemos, Liam Parker, ChangHoon Hahn, Shirley Ho, Michael Eickenberg, Jiamin Hou, Elena Massara, Chirag Modi, Azadeh Moradinezhad Dizgah, Bruno Regaldo-Saint Blancard, David Spergel
+
+- **SIMBIG: Galaxy Clustering Analysis with the Wavelet Scattering Transform** [[arXiv]](https://arxiv.org/abs/2310.15250)  
+Bruno Régaldo-Saint Blancard, ChangHoon Hahn, Shirley Ho, Jiamin Hou, Pablo Lemos, Elena Massara, Chirag Modi, Azadeh Moradinezhad Dizgah, Liam Parker, Yuling Yao, Michael Eickenberg
+
+- **SIMBIG: The First Cosmological Constraints from the Non-Linear Galaxy Bispectrum** [[arXiv]](https://arxiv.org/abs/2310.15243)  
+ChangHoon Hahn, Michael Eickenberg, Shirley Ho, Jiamin Hou, Pablo Lemos, Elena Massara, Chirag Modi, Azadeh Moradinezhad Dizgah, Liam Parker, Bruno Régaldo-Saint Blancard
+
+- **Field-level simulation-based inference with galaxy catalogs: the impact of systematic effects** [[arXiv]](https://arxiv.org/abs/2310.15234)  
+Natalí S. M. de Santi, Francisco Villaescusa-Navarro, L. Raul Abramo, Helen Shao, Lucia A. Perez, Tiago Castro, Yueying Ni, Christopher C. Lovell, Elena Hernandez-Martinez, Federico Marinacci, David N. Spergel, Klaus Dolag, Lars Hernquist, Mark Vogelsberger
+
 - **HaloFlow I: Neural Inference of Halo Mass from Galaxy Photometry and Morphology** [[arXiv]](https://arxiv.org/abs/2310.04503)  
 ChangHoon Hahn, Connor Bottrell, Khee-Gan Lee
 
@@ -439,6 +487,9 @@ Christian Schroeder de Witt et al
 
 ## Other Domains
 *Applications where multiple papers could not be grouped under a single heading.*
+
+- **Optimal simulation-based Bayesian decisions** [[arXiv]](https://arxiv.org/abs/2311.05742)  
+Justin Alsing, Thomas D. P. Edwards, Benjamin Wandelt
 
 - **Graph-informed simulation-based inference for models of active matter** [[arXiv]](https://arxiv.org/abs/2304.06806)  
 Namid R. Stillman, Silke Henkes, Roberto Mayor, Gilles Louppe
