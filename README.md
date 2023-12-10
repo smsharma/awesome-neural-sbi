@@ -31,6 +31,7 @@ A community-sourced list of papers and resources on neural simulation-based infe
 ## Code Packages and Benchmarks
 
 - `sbi` [[Code]](https://github.com/mackelab/sbi) [[Docs]](https://www.mackelab.org/sbi/) [[Paper]](https://joss.theoj.org/papers/10.21105/joss.02505): General-purpose simulation-based inference toolkit.
+- `BayesFlow` [[Code]](https://github.com/stefanradev93/BayesFlow) [[Docs]](https://bayesflow.org/) [[Paper]](https://joss.theoj.org/papers/10.21105/joss.05702): Simulation-based inference framework with a focus on amortized Bayesian workflows.
 - `sbibm` [[Code]](https://github.com/sbi-benchmark/sbibm) [[Docs]](https://sbi-benchmark.github.io/) [[Paper]](https://arxiv.org/abs/2101.04653): Simulation-based inference benchmarking framework.
 - `swyft` [[Code]](https://github.com/undark-lab/swyft) [[Docs]](https://swyft.readthedocs.io/en/latest/) [[Paper]](https://joss.theoj.org/papers/10.21105/joss.04205): Official implementation of Truncated Marginal Neural Ratio Estimation (TMNRE), a hyper-efficient, simulation-based inference technique for complex data and expensive simulators. 
 - `lampe` [[Code]](https://github.com/francois-rozet/lampe) [[Docs]](https://lampe.readthedocs.io): Likelihood-free AMortized Posterior Estimation with PyTorch.
@@ -60,11 +61,11 @@ Kyle Cranmer, Johann Brehmer, Gilles Louppe
 - **Pseudo-Likelihood Inference** [[arXiv]](https://arxiv.org/abs/2311.16656)  
 Theo Gruner, Boris Belousov, Fabio Muratore, Daniel Palenicek, Jan Peters
 
-- **Fuse It or Lose It: Deep Fusion for Multimodal Simulation-Based Inference** [[arXiv]](https://arxiv.org/abs/2311.10671)
-Marvin Schmitt, Stefan T. Radev, Paul-Christian Bürkner 
+- **Fuse It or Lose It: Deep Fusion for Multimodal Simulation-Based Inference** [[arXiv]](https://arxiv.org/abs/2311.10671)  
+Marvin Schmitt, Stefan T. Radev, Paul-Christian Bürkner
 
-- **Direct Amortized Likelihood Ratio Estimation** [[arXiv]](https://arxiv.org/abs/2311.10571)
-Adam D. Cobb, Brian Matejek, Daniel Elenius, Anirban Roy, Susmit Jha 
+- **Direct Amortized Likelihood Ratio Estimation** [[arXiv]](https://arxiv.org/abs/2311.10571)  
+Adam D. Cobb, Brian Matejek, Daniel Elenius, Anirban Roy, Susmit Jha
 
 - **Simulation based stacking** [[arXiv]](https://arxiv.org/abs/2310.17009)  
 Yuling Yao, Bruno Régaldo-Saint Blancard, Justin Domke
@@ -72,10 +73,16 @@ Yuling Yao, Bruno Régaldo-Saint Blancard, Justin Domke
 - **Calibrating Neural Simulation-Based Inference with Differentiable Coverage Probability** [[arXiv]](https://arxiv.org/abs/2310.13402)  
 Maciej Falkiewicz, Naoya Takeishi, Imahn Shekhzadeh, Antoine Wehenkel, Arnaud Delaunoy, Gilles Louppe, Alexandros Kalousis
 
+- **Sensitivity-Aware Amortized Bayesian Inference** [[arXiv]](https://arxiv.org/abs/2310.11122)  
+Lasse Elsemüller, Hans Olischläger, Marvin Schmitt, Paul-Christian Bürkner, Ullrich Köthe, Stefan T. Radev
+
+- **Leveraging Self-Consistency for Data-Efficient Amortized Bayesian Inference** [[arXiv]](https://arxiv.org/abs/2310.04395)  
+Marvin Schmitt, Daniel Habermann, Paul-Christian Bürkner, Ullrich Köthe, Stefan T. Radev
+
 - **Simulation-based Inference with the Generalized Kullback-Leibler Divergence** [[arXiv]](https://arxiv.org/abs/2310.01808)  
 Benjamin Kurt Miller, Marco Federici, Christoph Weniger, Patrick Forré
 
-- **Data assimilation as simulation-based inference** [[Master thesis]](https://matheo.uliege.be/handle/2268.2/18255) 
+- **Data assimilation as simulation-based inference** [[Master thesis]](https://matheo.uliege.be/handle/2268.2/18255)  
 Gérôme Andry, Gilles Louppe
 
 - **A transport approach to sequential simulation-based inference** [[arXiv]](https://arxiv.org/abs/2308.13940)  
@@ -120,17 +127,26 @@ Dongxia Wu, Ruijia Niu, Matteo Chinazzi, Yian Ma, Rose Yu
 - **Balancing Simulation-based Inference for Conservative Posteriors** [[arXiv]](https://arxiv.org/abs/2304.10978)  
 Arnaud Delaunoy, Benjamin Kurt Miller, Patrick Forré, Christoph Weniger, Gilles Louppe
 
+- **JANA: Jointly Amortized Neural Approximation of Complex Bayesian Models** [[arXiv]](https://arxiv.org/abs/2302.09125)  
+Stefan T. Radev, Marvin Schmitt, Valentin Pratz, Umberto Picchini, Ullrich Köthe, Paul-Christian Bürkner
+
 - **Sampling-Based Accuracy Testing of Posterior Estimators for General Inference** [[arXiv]](https://arxiv.org/abs/2302.03026)  
 Pablo Lemos, Adam Coogan, Yashar Hezaveh, Laurence Perreault-Levasseur
 
 - **Misspecification-robust Sequential Neural Likelihood** [[arXiv]](https://arxiv.org/abs/2301.13368)  
 Ryan P. Kelly, David J. Nott, David T. Frazier, David J. Warne, Chris Drovandi
 
+- **A Deep Learning Method for Comparing Bayesian Hierarchical Models** [[arXiv]](https://arxiv.org/abs/2301.11873)  
+Lasse Elsemüller, Martin Schnuerch, Paul-Christian Bürkner, Stefan T. Radev
+
+- **Neural Superstatistics for Bayesian Estimation of Dynamic Cognitive Models** [[arXiv]](https://arxiv.org/abs/2211.13165)  
+Lukas Schumacher, Paul-Christian Bürkner, Andreas Voss, Ullrich Köthe, Stefan T. Radev
+
+- **Validation Diagnostics for SBI algorithms based on Normalizing Flows** [[arXiv]](https://arxiv.org/abs/2211.09602)  
+Julia Linhart, Alexandre Gramfort, Pedro L. C. Rodrigues
+
 - **Monte Carlo Techniques for Addressing Large Errors and Missing Data in Simulation-based Inference** [[arXiv]](https://arxiv.org/abs/2211.03747)  
 Bingjie Wang, Joel Leja, Ashley Villar, Joshua S. Speagle
-
-- **Validation Diagnostics for SBI algorithms based on Normalizing Flows** [[arXiv]](https://arxiv.org/abs/2211.01126)  
-Julia Linhart, Alexandre Gramfort, Pedro L. C. Rodrigues
 
 - **Likelihood-free hypothesis testing** [[arXiv]](https://arxiv.org/abs/2211.01126)  
 Patrik Róbert Gerber, Yury Polyanskiy
@@ -183,8 +199,11 @@ Manuel Glöckler, Michael Deistler, Jakob H. Macke
 - **Robust Bayesian Inference for Simulator-based Models via the MMD Posterior Bootstrap** [[arXiv]](https://arxiv.org/abs/2202.04744)  
 Charita Dellaporta, Jeremias Knoblauch, Theodoros Damoulas, François-Xavier Briol
 
-- **Flexible and efficient simulation-based inference for models of decision-making** [[bioRxiv]](https://arxiv.org/abs/2111.13139)  
+- **Flexible and efficient simulation-based inference for models of decision-making** [[bioRxiv]](https://www.biorxiv.org/content/10.1101/2021.12.22.473472v3)  
 Jan Boelts, Jan-Matthis Lueckmann, Richard Gao, Jakob H. Macke
+
+- **Detecting Model Misspecification in Amortized Bayesian Inference with Neural Networks** [[arXiv]](https://arxiv.org/abs/2112.08866)  
+Marvin Schmitt, Paul-Christian Bürkner, Ullrich Köthe, Stefan T. Radev
 
 - **Group equivariant neural posterior estimation** [[arXiv]](https://arxiv.org/abs/2111.13139)  
 Maximilian Dax, Stephen R. Green, Jonathan Gair, Michael Deistler, Bernhard Schölkopf, Jakob H. Macke
@@ -228,6 +247,12 @@ Maxime Vandegar, Michael Kagan, Antoine Wehenkel, Gilles Louppe
 - **Neural Approximate Sufficient Statistics for Implicit Models** [[arXiv]](https://arxiv.org/abs/2010.10079)  
 Yanzhi Chen, Dinghuai Zhang, Michael Gutmann, Aaron Courville, Zhanxing Zhu
 
+- **Amortized Bayesian Model Comparison With Evidential Deep Learning** [[arXiv]](https://arxiv.org/abs/2004.10629)  
+Stefan T. Radev, Marco D'Alessandro, Ulf K. Mertens, Andreas Voss, Ullrich Köthe, Paul-Christian Bürkner
+
+- **BayesFlow: Learning Complex Stochastic Models With Invertible Neural Networks** [[arXiv]](https://arxiv.org/abs/2003.06281)  
+Stefan T. Radev, Ulf K. Mertens, Andreass Voss, Lynton Ardizzone, Ullrich Köthe
+
 - **Differentiable Likelihoods for Fast Inversion of 'Likelihood-Free' Dynamical Systems** [[arXiv]](https://arxiv.org/abs/2002.09301)  
 Hans Kersting, Nicholas Krämer, Martin Schiegg, Christian Daniel, Michael Tiemann, Philipp Hennig
 
@@ -242,6 +267,9 @@ Joeri Hermans, Volodimir Begy, Gilles Louppe
 
 - **Dynamic Likelihood-free Inference via Ratio Estimation (DIRE)** [[arXiv]](https://arxiv.org/abs/1810.09899)  
 Traiko Dinev, Michael U. Gutmann
+
+- **Analyzing Inverse Problems with Invertible Neural Networks** [[arXiv]](https://arxiv.org/abs/1808.04730)  
+Lynton Ardizzone, Jakob Kruse, Sebastian Wirkert, Daniel Rahner, Eric W. Pellegrini, Ralf S. Klessen, Lena Maier-Hein, Carsten Rother, Ullrich Köthe
 
 - **Likelihood-free inference with an improved cross-entropy estimator** [[arXiv]](https://arxiv.org/abs/1808.00973)  
 Markus Stoye, Johann Brehmer, Gilles Louppe, Juan Pavez, Kyle Cranmer
@@ -439,6 +467,9 @@ Ricardo Barrué, Patricia Conde-Muíño, Valerio Dao, Rui Santos
 - **Reconstructing axion-like particles from beam dumps with simulation-based inference** [[arXiv]](https://arxiv.org/abs/2308.01353)  
 Alessandro Morandini, Torben Ferber, Felix Kahlhoefer
 
+- **Measuring QCD Splittings with Invertible Networks** [[arXiv]](https://arxiv.org/abs/2012.09873)  
+Sebastian Bieringer, Anja Butter, Theo Heimel, Stefan Höche, Ullrich Köthe, Tilman Plehn, Stefan T. Radev
+
 - **Simulation-based inference methods for particle physics** [[arXiv]](https://arxiv.org/abs/2010.06439)  
 Johann Brehmer, Kyle Cranmer
 
@@ -451,10 +482,13 @@ Atılım Güneş Baydin et al
 - **Constraining Effective Field Theories with Machine Learning** [[arXiv]](https://arxiv.org/abs/1805.00013)  
 Johann Brehmer, Kyle Cranmer, Gilles Louppe, Juan Pavez
 
-## Neuroscience
+## Neuroscience and Cognitive Science
 
 - **Methods and considerations for estimating parameters in biophysically detailed neural models with simulation based inference** [[bioRxiv]](https://www.biorxiv.org/content/10.1101/2023.04.17.537118v1.abstract)  
 Nicholas Tolley, Pedro L. C. Rodrigues, Alexandre Gramfort, Stephanie Jones
+
+- **A General Integrative Neurocognitive Modeling Framework to Jointly Describe EEG and Decision-making on Single Trials** [[Paper]](https://link.springer.com/article/10.1007/s42113-023-00167-4)  
+Amin Ghaderi-Kangavari, Jamal Amani Rad, Michael D. Nunez
 
 - **Simulation-based Inference for Model Parameterization on Analog Neuromorphic Hardware** [[arXiv]](https://arxiv.org/abs/2303.16056)  
 Jakob Kaiser, Raphael Stock, Eric Müller, Johannes Schemmel, Sebastian Schmitt
@@ -467,6 +501,9 @@ Alexander Fengler, Lakshmi N Govindarajan, Tony Chen, Michael J Frank
 
 - **Training deep neural density estimators to identify mechanistic models of neural dynamics** [[Paper]](https://elifesciences.org/articles/56261)  
 Pedro J Gonçalves et al
+
+- **Mental speed is high until age 60 as revealed by analysis of over a million participants** [[Paper]](https://www.nature.com/articles/s41562-021-01282-7)  
+Mischa von Krause, Stefan T. Radev, Andreas Voss 
 
 - **Amortized Bayesian Inference for Models of Cognition** [[arXiv]](https://arxiv.org/abs/2005.03899)  
 Stefan T. Radev, Andreas Voss, Eva Marie Wieschen, Paul-Christian Bürkner
@@ -481,6 +518,9 @@ Itamar Caspi, Moran Meir, Nadav Ben Nun, Uri Yakhini, Adi Stern,  Yoav Ram
 
 - **Simulation-Based Inference for Whole-Brain Network Modeling of Epilepsy using Deep Neural Density Estimators** [[medRxiv]](https://www.medrxiv.org/content/10.1101/2022.06.02.22275860v1)  
 Meysam Hashemi, Anirudh N. Vattikonda, Jayant Jha, Viktor Sip, Marmaduke M. Woodman, Fabrice Bartolomei, Viktor K. Jirsa
+
+- **OutbreakFlow: Model-based Bayesian inference of disease outbreak dynamics with invertible neural networks and its application to the COVID-19 pandemics in Germany** [[arXiv]](https://arxiv.org/abs/2010.00300)  
+Stefan T. Radev, Frederik Graw, Simiao Chen, Nico T. Mutters, Vanessa M. Eichel, Till Bärnighausen, Ullrich Köthe
 
 - **Simulation-Based Inference for Global Health Decisions** [[arXiv]](https://arxiv.org/abs/2005.07062)  
 Christian Schroeder de Witt et al
@@ -518,11 +558,17 @@ Grace Avecilla, Julie N. Chuong, Fangfei Li, Gavin Sherlock, David Gresham, Yoav
 - **SimBIG : A Forward Modeling Approach To Analyzing Galaxy Clustering** [[arXiv]](https://arxiv.org/abs/2211.00723)  
 ChangHoon Hahn et al
 
+- **Mental speed is high until age 60 as revealed by analysis of over a million participants** [[Paper]](https://www.nature.com/articles/s41562-021-01282-7)
+Mischa von Krause, Stefan T. Radev, Andreas Voss 
+
 - **A neural simulation-based inference approach for characterizing the Galactic Center γ-ray excess** [[arXiv]](https://arxiv.org/abs/2110.06931)  
 Siddharth Mishra-Sharma, Kyle Cranmer
 
 - **Towards constraining warm dark matter with stellar streams through neural simulation-based inference** *(Preliminary)* [[arXiv]](https://arxiv.org/abs/2011.14923)  
 Joeri Hermans, Nilanjan Banik, Christoph Weniger, Gianfranco Bertone, Gilles Louppe
+
+- **OutbreakFlow: Model-based Bayesian inference of disease outbreak dynamics with invertible neural networks and its application to the COVID-19 pandemics in Germany** [[arXiv]](https://arxiv.org/abs/2010.00300)  
+Stefan T. Radev, Frederik Graw, Simiao Chen, Nico T. Mutters, Vanessa M. Eichel, Till Bärnighausen, Ullrich Köthe
 
 - **Likelihood-free inference with neural compression of DES SV weak lensing map statistics** [[arXiv]](https://arxiv.org/abs/2009.08459)  
 Niall Jeffrey, Justin Alsing, François Lanusse
