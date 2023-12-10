@@ -32,10 +32,11 @@ A community-sourced list of papers and resources on neural simulation-based infe
 
 - `sbi` [[Code]](https://github.com/mackelab/sbi) [[Docs]](https://www.mackelab.org/sbi/) [[Paper]](https://joss.theoj.org/papers/10.21105/joss.02505): General-purpose simulation-based inference toolkit.
 - `BayesFlow` [[Code]](https://github.com/stefanradev93/BayesFlow) [[Docs]](https://bayesflow.org/) [[Paper]](https://joss.theoj.org/papers/10.21105/joss.05702): Simulation-based inference framework with a focus on amortized Bayesian workflows.
-- `sbibm` [[Code]](https://github.com/sbi-benchmark/sbibm) [[Docs]](https://sbi-benchmark.github.io/) [[Paper]](https://arxiv.org/abs/2101.04653): Simulation-based inference benchmarking framework.
+- `sbibm` [[Code]](https://github.com/sbi-benchmark/sbibm) [[Docs]](https://sbi-benchmark.github.io/) [[Paper]](https://arxiv.org/abs/2312.03824): Simulation-based inference benchmarking framework.
 - `swyft` [[Code]](https://github.com/undark-lab/swyft) [[Docs]](https://swyft.readthedocs.io/en/latest/) [[Paper]](https://joss.theoj.org/papers/10.21105/joss.04205): Official implementation of Truncated Marginal Neural Ratio Estimation (TMNRE), a hyper-efficient, simulation-based inference technique for complex data and expensive simulators. 
 - `lampe` [[Code]](https://github.com/francois-rozet/lampe) [[Docs]](https://lampe.readthedocs.io): Likelihood-free AMortized Posterior Estimation with PyTorch.
 - `sbijax` [[Code]](https://github.com/dirmeier/sbijax): Simulation-based inference in JAX.
+- `nbi` [[Code]](https://github.com/kmzzhang/nbi) [[Docs]](https://nbi.readthedocs.io/en/latest/) [[Paper]](https://arxiv.org/abs/2101.04653): Neural Posterior Estimation (NPE) package with a focus on astronomical light curves and spectra.
 - `MadMiner` [[Code]](https://github.com/madminer-tool/madminer) [[Docs]](https://madminer.readthedocs.io/en/latest/index.html) [[Paper]](https://arxiv.org/abs/1907.10621): Machine learning–based inference toolkit for particle physics.
 - `pydelfi` [[Code]](https://github.com/justinalsing/pydelfi) [[Docs]](https://pydelfi.readthedocs.io/en/latest/intro.html) [[Paper]](https://arxiv.org/abs/1903.00007): Early implementation of Density Estimation Likelihood-Free Inference (DELFI) with neural density estimators and adaptive acquisition of simulations.
 - `carl` [[Code]](https://github.com/diana-hep/carl) [[Docs]](http://diana-hep.org/carl/) [[Paper]](https://joss.theoj.org/papers/10.21105/joss.00011): Early toolbox for neural network-based likelihood-free inference in Python.
