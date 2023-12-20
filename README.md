@@ -406,6 +406,9 @@ Tri Nguyen, Siddharth Mishra-Sharma, Reuel Williams, Lina Necib
 - **Estimating Cosmological Constraints from Galaxy Cluster Abundance using Simulation-Based Inference** [[arXiv]](https://arxiv.org/abs/2208.00134)  
 Moonzarin Reza, Yuanyuan Zhang, Brian Nord, Jason Poh, Aleksandra Ciprijanovic, Louis Strigari
 
+- **Neural Posterior Estimation with Differentiable Simulators** [[arXiv]](https://arxiv.org/abs/2207.05636)  
+Justine Zeghal, François Lanusse, Alexandre Boucaud, Benjamin Remy, Eric Aubourg
+
 - **Towards reconstructing the halo clustering and halo mass function of N-body simulations using neural ratio estimation** [[arXiv]](https://arxiv.org/abs/2206.11312)  
 Androniki Dimitriou, Christoph Weniger, Camila A. Correa
 
