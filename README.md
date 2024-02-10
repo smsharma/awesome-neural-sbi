@@ -21,7 +21,7 @@ A community-sourced list of papers and resources on neural simulation-based infe
 - [Papers: Application](#papers-application)
   - [Cosmology, Astrophysics, and Astronomy](#cosmology-astrophysics-and-astronomy)
   - [Particle Physics](#particle-physics)
-  - [Neuroscience](#neuroscience)
+  - [Neuroscience and Cognitive Science](#neuroscience-and-cognitive-science)
   - [Health and Medicine](#health-and-medicine)
   - [Other Domains](#other-domains)
   - [Application to Real Data](#application-to-real-data)
@@ -58,6 +58,15 @@ Kyle Cranmer, Johann Brehmer, Gilles Louppe
 
 # Papers: Methods
 *Methodological and use-inspired papers. Listed in reverse-chronological order.*
+
+- **Classification under Nuisance Parameters and Generalized Label Shift in Likelihood-Free Inference** [[arXiv]](https://arxiv.org/abs/2402.05330)  
+Luca Masserano, Alex Shen, Michele Doro, Tommaso Dorigo, Rafael Izbicki, Ann B. Lee
+
+- **Simulation-Based Inference with Quantile Regression** [[arXiv]](https://arxiv.org/abs/2401.02413)  
+He Jia
+
+- **Consistency Models for Scalable and Fast Simulation-Based Inference** [[arXiv]](https://arxiv.org/abs/2312.05440)  
+Marvin Schmitt, Valentin Pratz, Ullrich Köthe, Paul-Christian Bürkner, Stefan T Radev
 
 - **Pseudo-Likelihood Inference** [[arXiv]](https://arxiv.org/abs/2311.16656)  
 Theo Gruner, Boris Belousov, Fabio Muratore, Daniel Palenicek, Jan Peters
@@ -298,6 +307,39 @@ Kyle Cranmer, Juan Pavez, Gilles Louppe
 
 ## Cosmology, Astrophysics, and Astronomy
 
+- **Applying Simulation-Based Inference to Spectral and Spatial Information from the Galactic Center Gamma-Ray Excess** [[arXiv]](https://arxiv.org/abs/2402.04549)  
+Katharena Christy, Eric J. Baxter, Jason Kumar
+
+- **SIMBIG : Cosmological Constraints from the Redshift-Space Galaxy Skew Spectra** [[arXiv]](https://arxiv.org/abs/2401.15074)  
+Jiamin Hou, Azadeh Moradinezhad Dizgah, ChangHoon Hahn, Michael Eickenberg, Shirley Ho, Pablo Lemos, Elena Massara, Chirag Modi, Liam Parker, Bruno Régaldo-Saint Blancard
+
+- **Inferring galaxy cluster masses from cosmic microwave background lensing with neural simulation based inference** [[arXiv]](https://arxiv.org/abs/2401.08910)  
+Eric J. Baxter, Shivam Pandey
+
+- **Simulation-based inference of deep fields: galaxy population model and redshift distributions** [[arXiv]](https://arxiv.org/abs/2401.06846)  
+Beatrice Moser, Tomasz Kacprzak, Silvan Fischbacher, Alexandre Refregier, Dominic Grimm, Luca Tortorelli
+
+- **Simulation-Based Inference with Neural Posterior Estimation applied to X-ray spectral fitting: Demonstration of working principles down to the Poisson regime** [[arXiv]](https://arxiv.org/abs/2401.06061)  
+Didier Barret, Simon Dupourqué
+
+- **Optimal, fast, and robust inference of reionization-era cosmology with the 21cmPIE-INN** [[arXiv]](https://arxiv.org/abs/2401.04174)  
+Benedikt Schosser, Caroline Heneka, Tilman Plehn
+
+- **Isolated Pulsar Population Synthesis with Simulation-Based Inference** [[arXiv]](https://arxiv.org/abs/2312.14848)  
+Vanessa Graber, Michele Ronchi, Celsa Pardo-Araujo, Nanda Rea
+
+- **Constraints on the Evolution of the Ionizing Background and Ionizing Photon Mean Free Path at the End of Reionization** [[arXiv]](https://arxiv.org/abs/2312.08464)  
+Frederick B. Davies et al
+
+- **Inferring Atmospheric Properties of Exoplanets with Flow Matching and Neural Importance Sampling** [[arXiv]](https://arxiv.org/abs/2312.08295)  
+Timothy D. Gebhard, Jonas Wildberger, Maximilian Dax, Daniel Angerhausen, Sascha P. Quanz, Bernhard Schölkopf
+
+- **Efficient Parameter Inference for Gravitational Wave Signals in the Presence of Transient Noises Using Normalizing Flow** [[arXiv]](https://arxiv.org/abs/2312.08122)  
+Tian-Yang Sun, Chun-Yu Xiong, Shang-Jie Jin, Yu-Xin Wang, Jing-Fei Zhang, Xin Zhang
+
+- **Optimizing Likelihood-Free Inference using Self-Supervised Neural Symmetry Embeddings** [[arXiv]](https://arxiv.org/abs/2312.07615)  
+Deep Chatterjee, Philip C. Harris, Maanas Goel, Malina Desai, Michael W. Coughlin, Erik Katsavounidis
+
 - **Learning Reionization History from Quasars with Simulation-Based Inference** [[arXiv]](https://arxiv.org/abs/2311.16238)  
 Huanqing Chen, Joshua Speagle, Keir K. Rogers
 
@@ -488,6 +530,9 @@ Johann Brehmer, Kyle Cranmer, Gilles Louppe, Juan Pavez
 
 ## Neuroscience and Cognitive Science
 
+- **Approximation of Intractable Likelihood Functions in Systems Biology via Normalizing Flows** [[arXiv]](https://arxiv.org/abs/2312.02391)  
+Vincent D. Zaballa, Elliot E. Hui
+
 - **Methods and considerations for estimating parameters in biophysically detailed neural models with simulation based inference** [[bioRxiv]](https://www.biorxiv.org/content/10.1101/2023.04.17.537118v1.abstract)  
 Nicholas Tolley, Pedro L. C. Rodrigues, Alexandre Gramfort, Stephanie Jones
 
@@ -514,6 +559,9 @@ Stefan T. Radev, Andreas Voss, Eva Marie Wieschen, Paul-Christian Bürkner
 
 ## Health and Medicine
 
+- **Modeling the Age Pattern of Fertility: An Individual-Level Approach** [[arXiv]](https://arxiv.org/abs/2312.08185)  
+Daniel Ciganda, Nicolas Todd
+
 - **Simulation-based Inference for Cardiovascular Models** [[arXiv]](https://arxiv.org/abs/2307.13918)    
 Antoine Wehenkel, Jens Behrmann, Andrew C. Miller, Guillermo Sapiro, Ozan Sener, Marco Cuturi, Jörn-Henrik Jacobsen
 
@@ -531,6 +579,12 @@ Christian Schroeder de Witt et al
 
 ## Other Domains
 *Applications where multiple papers could not be grouped under a single heading.*
+
+- **Simulation-Based Inference of Surface Accumulation and Basal Melt Rates of an Antarctic Ice Shelf from Isochronal Layers** [[arXiv]](https://arxiv.org/abs/2312.02997)  
+Guy Moss, Vjeran Višnjević, Olaf Eisen, Falk M. Oraschewski, Cornelius Schröder, Jakob H. Macke, Reinhard Drews
+
+- **Amortized Bayesian Decision Making for simulation-based models** [[arXiv]](https://arxiv.org/abs/2312.02674)  
+Mila Gorecki, Jakob H. Macke, Michael Deistler
 
 - **Optimal simulation-based Bayesian decisions** [[arXiv]](https://arxiv.org/abs/2311.05742)  
 Justin Alsing, Thomas D. P. Edwards, Benjamin Wandelt
