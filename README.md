@@ -191,6 +191,9 @@ Patrick Cannon, Daniel Ward, Sebastian M. Schmon
 - **Towards Reliable Simulation-Based Inference with Balanced Neural Ratio Estimation** [[arXiv]](https://arxiv.org/abs/2208.13624)  
 Arnaud Delaunoy, Joeri Hermans, François Rozet, Antoine Wehenkel, Gilles Louppe
 
+- **Bayesian model comparison for simulation-based inference** [[arXiv]](https://arxiv.org/abs/2205.15784)  
+A. Spurio Mancini, M. M. Docherty, M. A. Price, J. D. McEwen
+
 - **Likelihood-Free Inference with Generative Neural Networks via Scoring Rule Minimization** [[arXiv]](https://arxiv.org/abs/2205.15784)  
 Lorenzo Pacchiardi, Ritabrata Dutta
 
