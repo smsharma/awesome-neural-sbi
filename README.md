@@ -59,6 +59,24 @@ Kyle Cranmer, Johann Brehmer, Gilles Louppe
 # Papers: Methods
 *Methodological and use-inspired papers. Listed in reverse-chronological order.*
 
+- **Detecting Model Misspecification in Amortized Bayesian Inference with Neural Networks: An Extended Investigation** [[arXiv]](https://arxiv.org/abs/2406.03154)  
+  Marvin Schmitt, Paul-Christian Bürkner, Ullrich Köthe, Stefan T. Radev
+
+- **Addressing Misspecification in Simulation-based Inference through Data-driven Calibration** [[arXiv]](https://arxiv.org/abs/2405.08719)  
+  Antoine Wehenkel, Juan L. Gamella, Ozan Sener, Jens Behrmann, Guillermo Sapiro, Marco Cuturi, Jörn-Henrik Jacobsen
+
+- **Preconditioned Neural Posterior Estimation for Likelihood-free Inference** [[arXiv]](https://arxiv.org/abs/2404.13557)  
+  Xiaoyu Wang, Ryan P. Kelly, David J. Warne, Christopher Drovandi
+
+- **All-in-one simulation-based inference** [[arXiv]](https://arxiv.org/abs/2404.09636)  
+  Manuel Gloeckler, Michael Deistler, Christian Weilbach, Frank Wood, Jakob H. Macke
+
+- **Diffusion posterior sampling for simulation-based inference in tall data settings** [[arXiv]](https://arxiv.org/abs/2404.07593)  
+  Julia Linhart, Gabriel Victorino Cardoso, Alexandre Gramfort, Sylvain Le Corff, Pedro L. C. Rodrigues
+
+- **Fast, accurate and lightweight sequential simulation-based inference using Gaussian locally linear mappings** [[arXiv]](https://arxiv.org/abs/2403.07454)  
+  Henrik Häggström, Pedro L. C. Rodrigues, Geoffroy Oudoumanessah, Florence Forbes, Umberto Picchini
+
 - **Classification under Nuisance Parameters and Generalized Label Shift in Likelihood-Free Inference** [[arXiv]](https://arxiv.org/abs/2402.05330)  
 Luca Masserano, Alex Shen, Michele Doro, Tommaso Dorigo, Rafael Izbicki, Ann B. Lee
 
@@ -307,6 +325,66 @@ Kyle Cranmer, Juan Pavez, Gilles Louppe
 
 ## Cosmology, Astrophysics, and Astronomy
 
+- **Fisher's Mirage: Noise Tightening of Cosmological Constraints in Simulation-Based Inference** [[arXiv]](https://arxiv.org/abs/2406.06067)  
+  Christopher Wilson, Rachel Bean
+
+- **Simulation-based Inference for Gravitational-waves from Intermediate-Mass Binary Black Holes in Real Noise** [[arXiv]](https://arxiv.org/abs/2406.03935)  
+  Vivien Raymond, Sama Al-Shammari, Alexandre Göttel
+
+- **Efficient Massive Black Hole Binary parameter estimation for LISA using Sequential Neural Likelihood** [[arXiv]](https://arxiv.org/abs/2406.00565)  
+  Iván Martín Vílchez, Carlos F. Sopuerta
+
+- **Simulation-based inference of radio millisecond pulsars in globular clusters** [[arXiv]](https://arxiv.org/abs/2405.15691)  
+  Joanna Berteaud, Christopher Eckner, Francesca Calore, Maïca Clavel, Daryl Haggard
+
+- **Dark Energy Survey Year 3 results: simulation-based cosmological inference with wavelet harmonics, scattering transforms, and moments of weak lensing mass maps II. Cosmological results** [[arXiv]](https://arxiv.org/abs/2405.10881)  
+  M. Gatti, G. Campailla, N. Jeffrey, L. Whiteway, A. Porredon, J. Prat, J. Williamson, M. Raveri, B. Jain, V. Ajani, C. Zhou, J. Blazek, D. Anbajagane, S. Samuroff, T. Kacprzak, A. Alarcon, A. Amon, K. Bechtol, M. Becker, G. Bernstein, A. Campos, C. Chang, R. Chen
+
+- **A Parameter-Masked Mock Data Challenge for Beyond-Two-Point Galaxy Clustering Statistics** [[arXiv]](https://arxiv.org/abs/2405.02252)  
+  Beyond-2pt Collaboration, :, Elisabeth Krause, Yosuke Kobayashi, Andrés N. Salcedo, Mikhail M. Ivanov, Tom Abel, Kazuyuki Akitsu, Raul E. Angulo, Giovanni Cabass, Sofia Contarini, Carolina Cuesta-Lazaro, ChangHoon Hahn, Nico Hamaus, Donghui Jeong, Chirag Modi, Nhat-Minh Nguyen, Takahiro Nishimichi, Enrique Paillas, Marcos Pellejero Ibañez, Oliver H. E. Philcox, Alice Pisani, Fabian Schmidt, Satoshi Tanaka, Giovanni Verza
+
+- **KiDS-SBI: Simulation-Based Inference Analysis of KiDS-1000 Cosmic Shear** [[arXiv]](https://arxiv.org/abs/2404.15402)  
+  Maximilian von Wietersheim-Kramsta, Kiyam Lin, Nicolas Tessore, Benjamin Joachimi, Arthur Loureiro, Robert Reischke, Angus H. Wright
+
+- **A Strong Gravitational Lens Is Worth a Thousand Dark Matter Halos: Inference on Small-Scale Structure Using Sequential Methods** [[arXiv]](https://arxiv.org/abs/2404.14487)  
+  Sebastian Wagner-Carena, Jaehoon Lee, Jeffrey Pennington, Jelle Aalbers, Simon Birrer, Risa H. Wechsler
+
+- **Simulation-based inference of black hole ringdowns in the time domain** [[arXiv]](https://arxiv.org/abs/2404.11373)  
+  Costantino Pacilio, Swetha Bhagwat, Roberto Cotesta
+
+- **How much information can be extracted from galaxy clustering at the field level?** [[arXiv]](https://arxiv.org/abs/2403.03220)  
+  Nhat-Minh Nguyen, Fabian Schmidt, Beatriz Tucci, Martin Reinecke, Andrija Kostić
+
+- **SIDE-real: Supernova Ia Dust Extinction with truncated marginal neural ratio estimation applied to real data** [[arXiv]](https://arxiv.org/abs/2403.07871)  
+  Konstantin Karchev, Matthew Grayling, Benjamin M. Boyd, Roberto Trotta, Kaisey S. Mandel, Christoph Weniger
+
+- **Tuning neural posterior estimation for gravitational wave inference** [[arXiv]](https://arxiv.org/abs/2403.02443)  
+  Alex Kolmus, Justin Janquart, Tomasz Baka, Twan van Laarhoven, Chris Van Den Broeck, Tom Heskes
+
+- **Dark Energy Survey Year 3 results: likelihood-free, simulation-based wCDM inference with neural compression of weak-lensing map statistics** [[arXiv]](https://arxiv.org/abs/2403.02314)  
+  N. Jeffrey, L. Whiteway, M. Gatti, J. Williamson, J. Alsing, A. Porredon, J. Prat, C. Doux, B. Jain, C. Chang, T. -Y. Cheng, T. Kacprzak, P. Lemos, A. Alarcon, A. Amon, K. Bechtol, M. R. Becker, G. M. Bernstein, A. Campos, A. Carnero Rosell, R. Chen, A. Choi, J. DeRose, A. Drlica-Wagner, K. Eckert
+
+- **Simulation-Based Inference of the sky-averaged 21-cm signal from CD-EoR with REACH** [[arXiv]](https://arxiv.org/abs/2403.14618)  
+  Anchal Saxena, P. Daniel Meerburg, Christoph Weniger, Eloy de Lera Acedo, Will Handley
+
+- **Exploring the role of the halo mass function for inferring astrophysical parameters during reionisation** [[arXiv]](https://arxiv.org/abs/2403.14061)  
+  Bradley Greig, David Prelogović, Jordan Mirocha, Yuxiang Qin, Yuan-Sen Ting, Andrei Mesinger
+
+- **SimBIG: Cosmological Constraints using Simulation-Based Inference of Galaxy Clustering with Marked Power Spectra** [[arXiv]](https://arxiv.org/abs/2404.04228)  
+  Elena Massara, ChangHoon Hahn, Michael Eickenberg, Shirley Ho, Jiamin Hou, Pablo Lemos, Chirag Modi, Azadeh Moradinezhad Dizgah, Liam Parker, Bruno Régaldo-Saint Blancard
+
+- **Inferring astrophysical parameters using the 2D cylindrical power spectrum from reionisation** [[arXiv]](https://arxiv.org/abs/2403.14060)  
+  Bradley Greig, David Prelogović, Yuxiang Qin, Yuan-Sen Ting, Andrei Mesinger
+
+- **Fast likelihood-free inference in the LSS Stage IV era** [[arXiv]](https://arxiv.org/abs/2403.14750)  
+  Guillermo Franco Abellán, Guadalupe Cañas Herrera, Matteo Martinelli, Oleg Savchenko, Davide Sciotti, Christoph Weniger
+
+- **Simulation-based Bayesian inference of protoplanetary disk winds from forbidden line profiles** [[arXiv]](https://arxiv.org/abs/2403.10243)  
+  Ahmad Nemer, ChangHoon Hahn, Jiaxuan Li, Peter Melchior, Jeremy Goodman
+
+- **Neural Simulation-Based Inference of the Neutron Star Equation of State directly from Telescope Spectra** [[arXiv]](https://arxiv.org/abs/2403.00287)  
+  Len Brandes, Chirag Modi, Aishik Ghosh, Delaney Farrell, Lee Lindblom, Lukas Heinrich, Andrew W. Steiner, Fridolin Weber, Daniel Whiteson
+
 - **Applying Simulation-Based Inference to Spectral and Spatial Information from the Galactic Center Gamma-Ray Excess** [[arXiv]](https://arxiv.org/abs/2402.04549)  
 Katharena Christy, Eric J. Baxter, Jason Kumar
 
@@ -507,6 +585,9 @@ Justin Alsing, Tom Charnock, Stephen Feeney, Benjamin Wandelt
 
 ## Particle Physics
 
+- **Constraining the Higgs Potential with Neural Simulation-based Inference for Di-Higgs Production** [[arXiv]](https://arxiv.org/abs/2405.15847)  
+  Radha Mastandrea, Benjamin Nachman, Tilman Plehn
+
 - **Simulation-based inference in the search for CP violation in leptonic WH production** [[arXiv]](https://arxiv.org/abs/2308.02882)  
 Ricardo Barrué, Patricia Conde-Muíño, Valerio Dao, Rui Santos
 
@@ -559,6 +640,12 @@ Stefan T. Radev, Andreas Voss, Eva Marie Wieschen, Paul-Christian Bürkner
 
 ## Health and Medicine
 
+- **Simulation-Based Inference of Developmental EEG Maturation with the Spectral Graph Model** [[arXiv]](https://arxiv.org/abs/2405.02524)  
+  Danilo Bernardo, Xihe Xie, Parul Verma, Jonathan Kim, Virginia Liu, Ye Wu, Pew-Thian Yap, Srikantan Nagarajan, Ashish Raj
+
+- **AI-powered simulation-based inference of a genuinely spatial-stochastic model of early mouse embryogenesis** [[arXiv]](https://arxiv.org/abs/2402.15330)  
+  Michael A. Ramirez-Sierra, Thomas R. Sokolowski
+
 - **Modeling the Age Pattern of Fertility: An Individual-Level Approach** [[arXiv]](https://arxiv.org/abs/2312.08185)  
 Daniel Ciganda, Nicolas Todd
 
@@ -579,6 +666,9 @@ Christian Schroeder de Witt et al
 
 ## Other Domains
 *Applications where multiple papers could not be grouped under a single heading.*
+
+- **SB-ETAS: using simulation based inference for scalable, likelihood-free inference for the ETAS model of earthquake occurrences** [[arXiv]](https://arxiv.org/abs/2404.16590)  
+  Samuel Stockman, Daniel J. Lawson, Maximilian J. Werner
 
 - **Simulation-Based Inference of Surface Accumulation and Basal Melt Rates of an Antarctic Ice Shelf from Isochronal Layers** [[arXiv]](https://arxiv.org/abs/2312.02997)  
 Guy Moss, Vjeran Višnjević, Olaf Eisen, Falk M. Oraschewski, Cornelius Schröder, Jakob H. Macke, Reinhard Drews
