@@ -47,8 +47,11 @@ A community-sourced list of papers and resources on neural simulation-based infe
 
 ## Review Papers
 
+- **Neural Methods for Amortised Parameter Inference** [[arXiv]](https://arxiv.org/abs/2404.12484)  
+  Andrew Zammit-Mangion, Matthew Sainsbury-Dale, Raphaël Huser
+
 - **The frontier of simulation-based inference** [[arXiv]](https://arxiv.org/abs/1911.01429)  
-Kyle Cranmer, Johann Brehmer, Gilles Louppe
+  Kyle Cranmer, Johann Brehmer, Gilles Louppe
 
 ## Discovery and Links
 
