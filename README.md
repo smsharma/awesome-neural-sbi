@@ -35,6 +35,7 @@ A community-sourced list of papers and resources on neural simulation-based infe
 - `sbibm` [[Code]](https://github.com/sbi-benchmark/sbibm) [[Docs]](https://sbi-benchmark.github.io/) [[Paper]](https://arxiv.org/abs/2312.03824): Simulation-based inference benchmarking framework.
 - `swyft` [[Code]](https://github.com/undark-lab/swyft) [[Docs]](https://swyft.readthedocs.io/en/latest/) [[Paper]](https://joss.theoj.org/papers/10.21105/joss.04205): Official implementation of Truncated Marginal Neural Ratio Estimation (TMNRE), a hyper-efficient, simulation-based inference technique for complex data and expensive simulators. 
 - `SimulationBasedInference.jl` [[Code]](https://github.com/bgroenks96/SimulationBasedInference.jl) [[Docs]](https://bgroenks96.github.io/SimulationBasedInference.jl/dev/): Simulation-based inference in Julia.
+- `sbiax` [[Code]](https://github.com/homerjed/sbiax) [[Paper]](https://arxiv.org/abs/2412.02311): Density-estimation Simulation-based inference in JAX.
 - `lampe` [[Code]](https://github.com/francois-rozet/lampe) [[Docs]](https://lampe.readthedocs.io): Likelihood-free AMortized Posterior Estimation with PyTorch.
 - `sbijax` [[Code]](https://github.com/dirmeier/sbijax) [[Paper]](https://arxiv.org/abs/2409.19435): Simulation-based inference in JAX.
 - `nbi` [[Code]](https://github.com/kmzzhang/nbi) [[Docs]](https://nbi.readthedocs.io/en/latest/) [[Paper]](https://arxiv.org/abs/2312.03824): Neural Posterior Estimation (NPE) package with a focus on astronomical light curves and spectra.
@@ -62,6 +63,9 @@ A community-sourced list of papers and resources on neural simulation-based infe
 
 # Papers: Methods
 *Methodological and use-inspired papers. Listed in reverse-chronological order.*
+
+- **Simulation-based Inference has its own Dodelson-Schneider Effect (but it knows that it does)** [[ArXiv]](https://arxiv.org/abs/2412.02311)
+  Jed Homer, Oliver Friedrich, Daniel Gruen
 
 - **Low-Budget Simulation-Based Inference with Bayesian Neural Networks** [[arXiv]](https://arxiv.org/abs/2408.15136)  
   Arnaud Delaunoy, Maxence de la Brassinne Bonardeaux, Siddharth Mishra-Sharma, Gilles Louppe
