@@ -65,6 +65,9 @@ A community-sourced list of papers and resources on neural simulation-based infe
 # Papers: Methods
 *Methodological and use-inspired papers. Listed in reverse-chronological order.*
 
+- **Tests for model misspecification in simulation-based inference: from local distortions to global model checks** [[arXiv]](https://arxiv.org/abs/2412.15100)  
+Noemi Anau Montel, James Alvey, Christoph Weniger
+
 - **Simulation-based Inference has its own Dodelson-Schneider Effect (but it knows that it does)** [[ArXiv]](https://arxiv.org/abs/2412.02311)
   Jed Homer, Oliver Friedrich, Daniel Gruen
 
@@ -348,6 +351,21 @@ Kyle Cranmer, Juan Pavez, Gilles Louppe
 *Domain application of neural simulation-based inference. Papers listed in reverse-chronological order.*
 
 ## Cosmology, Astrophysics, and Astronomy
+
+- **Extracting cosmological information from the abundance of galaxy clusters with simulation-based inference** [[arXiv]](https://arxiv.org/abs/2504.10230)  
+  Íñigo Zubeldia, Boris Bolliet, Anthony Challinor, William Handley
+
+- **Trial by FIRE: Probing the dark matter density profile of dwarf galaxies with GraphNPE** [[arXiv]](https://arxiv.org/abs/2503.03812)  
+  Tri Nguyen, Justin Read, Lina Necib, Siddharth Mishra-Sharma, Claude-André Faucher-Giguère, Andrew Wetzel
+
+- **How many simulations do we need for simulation-based inference in cosmology?** [[arXiv]](https://arxiv.org/abs/2503.13755)  
+  Anirban Bairagi, Benjamin D. Wandelt, Francisco Villaescusa-Navarro
+
+- **Fast Sampling of Cosmological Initial Conditions with Gaussian Neural Posterior Estimation** [[arXiv]](https://arxiv.org/abs/2502.03139)  
+  Oleg Savchenko, Guillermo Franco Abellán, Florian List, Noemi Anau Montel, Christoph Weniger
+
+- **Cosmological Analysis with Calibrated Neural Quantile Estimation and Approximate Simulators** [[arXiv]](https://arxiv.org/abs/2411.14748)  
+  He Jia
 
 - **Hybrid Summary Statistics** [[arXiv]](https://arxiv.org/abs/2410.07548)  
   T. Lucas Makinen, Ce Sui, Benjamin D. Wandelt, Natalia Porqueres, Alan Heavens
@@ -825,6 +843,9 @@ Grace Avecilla, Julie N. Chuong, Fangfei Li, Gavin Sherlock, David Gresham, Yoav
 
 ## Application to Real Data
 *Applications of neural simulation-based inference beyond synthetic data.*
+
+- **A robust neural determination of the source-count distribution of the Fermi-LAT sky at high latitudes** [[arXiv]](https://arxiv.org/abs/2505.02906)  
+Christopher Eckner, Noemi Anau Montel, Florian List, Francesca Calore, Christoph Weniger
 
 - **SimBIG : A Forward Modeling Approach To Analyzing Galaxy Clustering** [[arXiv]](https://arxiv.org/abs/2211.00723)  
 ChangHoon Hahn et al
