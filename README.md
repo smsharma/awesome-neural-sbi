@@ -10,7 +10,8 @@ Awesome Neural SBI<!-- omit from toc -->
 
 A community-sourced list of papers and resources on neural simulation-based inference, covering both methodological developments and domain applications. Given the nature of the field, the list is bound to be highly incomplete -- contributions are welcome!
 
-[!NOTE] This list is no longer being actively maintained! PRs and contribution take-overs are welcome, and meanwhile for the most current papers and resources please visit [simulation-based-inference.org](http://simulation-based-inference.org/).
+> [!NOTE]
+> This list is no longer being actively maintained! PRs and contribution take-overs are welcome, and meanwhile for the most current papers and resources please visit [simulation-based-inference.org](http://simulation-based-inference.org/).
 
 
 # Contents<!-- omit from toc -->
