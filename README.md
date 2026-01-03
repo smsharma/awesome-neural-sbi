@@ -10,10 +10,6 @@ Awesome Neural SBI<!-- omit from toc -->
 
 A community-sourced list of papers and resources on neural simulation-based inference, covering both methodological developments and domain applications. Given the nature of the field, the list is bound to be highly incomplete -- contributions are welcome!
 
-> [!NOTE]
-> This list is no longer being actively maintained! PRs and contribution take-overs are welcome, and meanwhile for the most current papers and resources please visit [simulation-based-inference.org](http://simulation-based-inference.org/).
-
-
 # Contents<!-- omit from toc -->
 
 - [Software and Resources](#software-and-resources)
@@ -54,10 +50,22 @@ A community-sourced list of papers and resources on neural simulation-based infe
 
 ## Review Papers
 
-- **Neural Methods for Amortized Inference** [[arXiv]](https://arxiv.org/abs/2404.12484)  
+- **Simulation-Based Inference: A Practical Guide** [[arXiv]](https://arxiv.org/abs/2508.12939)
+  Michael Deistler, Jan Boelts, Peter Steinbach, Guy Moss, Thomas Moreau, Manuel Gloeckler, Pedro L. C. Rodrigues, Julia Linhart, Janne K. Lappalainen, Benjamin Kurt Miller, Pedro J. Gonçalves, Jan-Matthis Lueckmann, Cornelius Schröder, Jakob H. Macke
+
+- **Diffusion Models in Simulation-Based Inference: A Tutorial Review** [[arXiv]](https://arxiv.org/abs/2512.20685)
+  Jonas Arruda, Niels Bracher, Ullrich Köthe, Jan Hasenauer, Stefan T. Radev
+
+- **A Review of Diffusion-based Simulation-Based Inference: Foundations and Applications in Non-Ideal Data Scenarios** [[arXiv]](https://arxiv.org/abs/2512.23748)
+  Haley Rosso, Talea Mayo
+
+- **Simulation-based Bayesian inference under model misspecification** [[arXiv]](https://arxiv.org/abs/2503.12315)
+  Ryan P. Kelly, David J. Warne, David T. Frazier, David J. Nott, Michael U. Gutmann, Christopher Drovandi
+
+- **Neural Methods for Amortized Inference** [[arXiv]](https://arxiv.org/abs/2404.12484)
   Andrew Zammit-Mangion, Matthew Sainsbury-Dale, Raphaël Huser
 
-- **The frontier of simulation-based inference** [[arXiv]](https://arxiv.org/abs/1911.01429)  
+- **The frontier of simulation-based inference** [[arXiv]](https://arxiv.org/abs/1911.01429)
   Kyle Cranmer, Johann Brehmer, Gilles Louppe
 
 ## Discovery and Links
@@ -69,8 +77,50 @@ A community-sourced list of papers and resources on neural simulation-based infe
 # Papers: Methods
 *Methodological and use-inspired papers. Listed in reverse-chronological order.*
 
-- **Tests for model misspecification in simulation-based inference: from local distortions to global model checks** [[arXiv]](https://arxiv.org/abs/2412.15100)  
-Noemi Anau Montel, James Alvey, Christoph Weniger
+- **Misspecification-robust amortised simulation-based inference using variational methods** [[arXiv]](https://arxiv.org/abs/2509.05724)
+  Matthew O'Callaghan, Kaisey S. Mandel, Gerry Gilmore
+
+- **CP4SBI: Local Conformal Calibration of Credible Sets in Simulation-Based Inference** [[arXiv]](https://arxiv.org/abs/2508.17077)
+  Luben M. C. Cabezas, Vagner S. Santos, Thiago R. Ramos, Pedro L. C. Rodrigues, Rafael Izbicki
+
+- **Estimating Marginal Likelihoods in Likelihood-Free Inference via Neural Density Estimation** [[arXiv]](https://arxiv.org/abs/2507.08734)
+  Paul Bastide, Arnaud Estoup, Jean-Michel Marin, Julien Stoehr
+
+- **Compositional amortized inference for large-scale hierarchical Bayesian models** [[arXiv]](https://arxiv.org/abs/2505.14429)
+  Jonas Arruda, Vikas Pandey, Catherine Sherry, Margarida Barroso, Xavier Intes, Jan Hasenauer, Stefan T. Radev
+
+- **Cosmological Parameter Estimation with Sequential Linear Simulation-based Inference** [[arXiv]](https://arxiv.org/abs/2501.03921)
+  Nicolas Mediato-Diaz, Will Handley
+
+- **Robust Amortized Bayesian Inference with Self-Consistency Losses on Unlabeled Data** [[arXiv]](https://arxiv.org/abs/2501.13483)
+  Aayush Mishra, Daniel Habermann, Marvin Schmitt, Stefan T. Radev, Paul-Christian Bürkner
+
+- **Active Sequential Posterior Estimation for Sample-Efficient Simulation-Based Inference** [[arXiv]](https://arxiv.org/abs/2412.05590)
+  Sam Griesemer, Defu Cao, Zijun Cui, Carolina Osorio, Yan Liu
+
+- **sbi reloaded: a toolkit for simulation-based inference workflows** [[arXiv]](https://arxiv.org/abs/2411.17337)
+  Jan Boelts, Michael Deistler, Manuel Gloeckler, Álvaro Tejero-Cantero, Jan-Matthis Lueckmann et al.
+
+- **PolySwyft: sequential simulation-based nested sampling** [[arXiv]](https://arxiv.org/abs/2512.08316)
+  Kilian H. Scheutwinkel, Will Handley, Christoph Weniger, Eloy de Lera Acedo
+
+- **Assessment of Simulation-based Inference Methods for Stochastic Compartmental Models** [[arXiv]](https://arxiv.org/abs/2512.02528)
+  Vincent Wieland, Nils Wassmuth, Lorenzo Contento, Martin Kühn, Jan Hasenauer
+
+- **Fast and Robust Simulation-Based Inference With Optimization Monte Carlo** [[arXiv]](https://arxiv.org/abs/2511.13394)
+  Vasilis Gkolemis, Christos Diou, Michael Gutmann
+
+- **ASBI: Leveraging Informative Real-World Data for Active Black-Box Simulator Tuning** [[arXiv]](https://arxiv.org/abs/2510.15331)
+  Gahee Kim, Takamitsu Matsubara
+
+- **Error analysis of a compositional score-based algorithm for simulation-based inference** [[arXiv]](https://arxiv.org/abs/2510.15817)
+  Camille Touron, Gabriel V. Cardoso, Julyan Arbel, Pedro L. C. Rodrigues
+
+- **Heuristic Adaptation of Potentially Misspecified Domain Support for Likelihood-Free Inference in Stochastic Dynamical Systems** [[arXiv]](https://arxiv.org/abs/2510.26656)
+  Georgios Kamaras, Craig Innes, Subramanian Ramamoorthy
+
+- **Tests for model misspecification in simulation-based inference: from local distortions to global model checks** [[arXiv]](https://arxiv.org/abs/2412.15100)
+  Noemi Anau Montel, James Alvey, Christoph Weniger
 
 - **Simulation-based Inference has its own Dodelson-Schneider Effect (but it knows that it does)** [[ArXiv]](https://arxiv.org/abs/2412.02311)
   Jed Homer, Oliver Friedrich, Daniel Gruen
@@ -356,7 +406,76 @@ Kyle Cranmer, Juan Pavez, Gilles Louppe
 
 ## Cosmology, Astrophysics, and Astronomy
 
-- **Extracting cosmological information from the abundance of galaxy clusters with simulation-based inference** [[arXiv]](https://arxiv.org/abs/2504.10230)  
+- **Neural Posterior Estimation with Autoregressive Tiling for Detecting Objects in Astronomical Images** [[arXiv]](https://arxiv.org/abs/2510.03074)
+  Jeffrey Regier
+
+- **Simulation-Efficient Cosmological Inference with Multi-Fidelity SBI** [[arXiv]](https://arxiv.org/abs/2507.00514)
+  Leander Thiele, Adrian E. Bayer, Naoya Takeishi
+
+- **Simulation-based inference with neural posterior estimation applied to X-ray spectral fitting II -- High-resolution spectroscopy with the X-ray Integral Field Unit** [[arXiv]](https://arxiv.org/abs/2506.05911)
+  Simon Dupourqué, Didier Barret
+
+- **Accelerated Bayesian Inference for Pulsar Timing Arrays: Normalizing Flows for Rapid Model Comparison** [[arXiv]](https://arxiv.org/abs/2504.04211)
+  Junrong Lai, Changhong Li
+
+- **Robustness of Neural Ratio and Posterior Estimators to Distributional Shifts for Population-Level Dark Matter Analysis** [[arXiv]](https://arxiv.org/abs/2411.05905)
+  Andreas Filipp, Yashar Hezaveh, Laurence Perreault-Levasseur
+
+- **Robust CMB B-mode analysis with Needlet-ILC and simulation-based inference** [[arXiv]](https://arxiv.org/abs/2512.16869)
+  Adriaan J. Duivenvoorden, Kristen Surrao, Adrian E. Bayer, Alexandre E. Adler, Nadia Dachlythra, Susanna Azzoni, J. Colin Hill
+
+- **Simulation-based inference with neural posterior estimation applied to X-ray spectral fitting - III: Deriving exact posteriors with dimension reduction and importance sampling** [[arXiv]](https://arxiv.org/abs/2512.16709)
+  Didier Barret, Simon Dupourqué
+
+- **AGN X-ray Reflection Spectroscopy with ML MYTORUS: Neural Posterior Estimation with Training on Observation-Driven Parameter Grids** [[arXiv]](https://arxiv.org/abs/2512.12155)
+  Ingrid Vanessa Daza-Perilla, Panayiotis Tzanavaris, V. Madurga-Favieres, M. Yukita, A. Ptak, T. Yaqoob
+
+- **Transformer Embeddings for Fast Microlensing Inference** [[arXiv]](https://arxiv.org/abs/2512.11687)
+  Nolan Smyth, Laurence Perreault-Levasseur, Yashar Hezaveh
+
+- **Robust and scalable simulation-based inference for gravitational wave signals with gaps** [[arXiv]](https://arxiv.org/abs/2512.18290)
+  Ruiting Mao, Jeong Eun Lee, Matthew C. Edwards
+
+- **Vision Transformers for Cosmological Fields: Application to Weak Lensing Mass Maps** [[arXiv]](https://arxiv.org/abs/2512.07125)
+  Jash Kakadia, Shubh Agrawal, Kunhao Zhong, Bhuvnesh Jain
+
+- **Black-hole ringdown with templates capturing spin precession: a critical re-analysis of GW190521** [[arXiv]](https://arxiv.org/abs/2512.05193)
+  Chiara Anselmo, Costantino Pacilio, Davide Gerosa
+
+- **The dynamical memory of tidal stellar streams: Joint inference of the Galactic potential and the progenitor of GD-1 with flow matching** [[arXiv]](https://arxiv.org/abs/2512.04600)
+  Giuseppe Viterbo, Tobias Buck
+
+- **The Shear-to-Cosmology Paradigm I: Hybrid Field-Level and Simulation-Based Framework for Weak Lensing Surveys** [[arXiv]](https://arxiv.org/abs/2511.22851)
+  Jiacheng Ding, Chen Su, Ji Yao, Le Zhang, Huanyuan Shan
+
+- **Modeling X-ray photon pile-up with a normalizing flow** [[arXiv]](https://arxiv.org/abs/2511.11863)
+  Ole König, Daniela Huppenkothen, Douglas Finkbeiner, Christian Kirsch, Jörn Wilms, Justina R. Yang, James F. Steiner, Juan Rafael Martínez-Galarza
+
+- **Flexible Simulation Based Inference for Galaxy Photometric Fitting with Synthesizer** [[arXiv]](https://arxiv.org/abs/2511.10640)
+  Thomas Harvey, Christopher C. Lovell, Sophie Newman, Christopher J. Conselice, et al.
+
+- **Accelerated inference of microlensed gravitational waves with machine learning** [[arXiv]](https://arxiv.org/abs/2511.08486)
+  Marienza Caldarola, Srashti Goyal, Nihar Gupte, Stephen R. Green, Miguel Zumalacárregui
+
+- **Dark Energy Survey Year 3 results: Simulation-based wCDM inference from weak lensing and galaxy clustering maps with deep learning. I. Analysis design** [[arXiv]](https://arxiv.org/abs/2511.04681)
+  A. Thomsen, J. Bucko, T. Kacprzak, V. Ajani, J. Fluri, A. Refregier, et al.
+
+- **Quantifying Weighted Morphological Content of Large-Scale Structures via Simulation-Based Inference** [[arXiv]](https://arxiv.org/abs/2511.03636)
+  M. H. Jalali Kanafi, S. M. S. Movahed
+
+- **Reliable Parameter Inference for the Epoch of Reionization using Balanced Neural Ratio Estimation** [[arXiv]](https://arxiv.org/abs/2511.02808)
+  Diego González-Hernández, Molly Wolfson, Joseph F. Hennawi
+
+- **LyαNNA II: Field-level inference with noisy Lyα forest spectra** [[arXiv]](https://arxiv.org/abs/2510.19899)
+  Parth Nayak, Michael Walther, Daniel Gruen
+
+- **Neural Posterior Estimation for White Dwarf Spectroscopic Characterization** [[arXiv]](https://arxiv.org/abs/2510.16261)
+  Olivier Vincent, Patrick Dufour, Pierre Bergeron
+
+- **Hierarchical Simulation-Based Inference of Supernova Power Sources and their Physical Properties** [[arXiv]](https://arxiv.org/abs/2510.14202)
+  Edgar P. Vidal, Alexander T. Gagliano, Carolina Cuesta-Lazaro
+
+- **Extracting cosmological information from the abundance of galaxy clusters with simulation-based inference** [[arXiv]](https://arxiv.org/abs/2504.10230)
   Íñigo Zubeldia, Boris Bolliet, Anthony Challinor, William Handley
 
 - **Trial by FIRE: Probing the dark matter density profile of dwarf galaxies with GraphNPE** [[arXiv]](https://arxiv.org/abs/2503.03812)  
@@ -712,7 +831,10 @@ Justin Alsing, Tom Charnock, Stephen Feeney, Benjamin Wandelt
 
 ## Particle Physics
 
-- **Advancing Tools for Simulation-Based Inference** [[arXiv]](https://arxiv.org/abs/2410.07315)  
+- **Machine Learning-Informed 3+1 Sterile Neutrino Global Fits using Posterior Density Estimation of Electron Disappearance Data** [[arXiv]](https://arxiv.org/abs/2512.05784)
+  Joshua Villarreal, Julia Woodward, John Hardin, Janet Conrad
+
+- **Advancing Tools for Simulation-Based Inference** [[arXiv]](https://arxiv.org/abs/2410.07315)
   Henning Bahl, Victor Bresó, Giovanni De Crescenzo, Tilman Plehn
 
 - **Constraining the Higgs Potential with Neural Simulation-based Inference for Di-Higgs Production** [[arXiv]](https://arxiv.org/abs/2405.15847)  
@@ -799,6 +921,15 @@ Christian Schroeder de Witt et al
 
 ## Other Domains
 *Applications where multiple papers could not be grouped under a single heading.*
+
+- **Simulation-Based Inference of Ginzburg--Landau Parameters in Type--1.5 Superconductors** [[arXiv]](https://arxiv.org/abs/2512.02411)
+  Jung-Shen Kao
+
+- **Modeling multi-agent motion dynamics in immersive rooms** [[arXiv]](https://arxiv.org/abs/2511.08763)
+  Jerry M. Huang, Stefan T. Radev
+
+- **From Observations to Parameters: Detecting Changepoint in Nonlinear Dynamics with Simulation-based Inference** [[arXiv]](https://arxiv.org/abs/2510.17933)
+  Xiangbo Deng, Cheng Chen, Peng Yang
 
 - **Simulation-based inference of single-molecule experiments** [[arXiv]](https://arxiv.org/abs/2410.15896)  
   Lars Dingeldein, Pilar Cossio, Roberto Covino
