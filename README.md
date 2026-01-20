@@ -54,6 +54,9 @@ A community-sourced list of papers and resources on neural simulation-based infe
 
 ## Review Papers
 
+- **Diffusion Models In Simulation-Based Inference: A Tutorial Review** [[Paper]](https://bayesflow-org.github.io/diffusion-experiments/)
+  Jonas Arruda, Niels Bracher, Ullrich Köthe, Jan Hasenauer, Stefan T. Radev
+  
 - **Neural Methods for Amortized Inference** [[arXiv]](https://arxiv.org/abs/2404.12484)  
   Andrew Zammit-Mangion, Matthew Sainsbury-Dale, Raphaël Huser
 
@@ -68,6 +71,9 @@ A community-sourced list of papers and resources on neural simulation-based infe
 
 # Papers: Methods
 *Methodological and use-inspired papers. Listed in reverse-chronological order.*
+
+- **Compositional amortized inference for large-scale hierarchical Bayesian models** [[arXiv]](https://doi.org/10.48550/arXiv.2505.14429)
+  Jonas Arruda, Vikas Pandey, Catherine Sherry, Margarida Barroso, Xavier Intes, Jan Hasenauer, Stefan T. Radev
 
 - **Tests for model misspecification in simulation-based inference: from local distortions to global model checks** [[arXiv]](https://arxiv.org/abs/2412.15100)  
 Noemi Anau Montel, James Alvey, Christoph Weniger
@@ -799,6 +805,9 @@ Christian Schroeder de Witt et al
 
 ## Other Domains
 *Applications where multiple papers could not be grouped under a single heading.*
+
+- **Simulation-Based Inference of Cell Migration Dynamics in Complex Spatial Environments** [[bioRxiv]](https://www.biorxiv.org/content/10.1101/2025.09.25.678460v1)
+  Jonas Arruda, Emad Alamoudi, Robert Mueller, Marc Vaisband, Ronja Molkenbur, Jack Merrin, Eva Kiermaier, Jan Hasenauer
 
 - **Simulation-based inference of single-molecule experiments** [[arXiv]](https://arxiv.org/abs/2410.15896)  
   Lars Dingeldein, Pilar Cossio, Roberto Covino
