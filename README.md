@@ -53,7 +53,7 @@ A community-sourced list of papers and resources on neural simulation-based infe
 - **Simulation-Based Inference: A Practical Guide** [[arXiv]](https://arxiv.org/abs/2508.12939)
   Michael Deistler, Jan Boelts, Peter Steinbach, Guy Moss, Thomas Moreau, Manuel Gloeckler, Pedro L. C. Rodrigues, Julia Linhart, Janne K. Lappalainen, Benjamin Kurt Miller, Pedro J. Gonçalves, Jan-Matthis Lueckmann, Cornelius Schröder, Jakob H. Macke
 
-- **Diffusion Models in Simulation-Based Inference: A Tutorial Review** [[arXiv]](https://arxiv.org/abs/2512.20685)
+- **Diffusion Models in Simulation-Based Inference: A Tutorial Review** [[arXiv]](https://arxiv.org/abs/2512.20685) [[Paper]](https://bayesflow-org.github.io/diffusion-experiments/)
   Jonas Arruda, Niels Bracher, Ullrich Köthe, Jan Hasenauer, Stefan T. Radev
 
 - **A Review of Diffusion-based Simulation-Based Inference: Foundations and Applications in Non-Ideal Data Scenarios** [[arXiv]](https://arxiv.org/abs/2512.23748)
@@ -921,6 +921,9 @@ Christian Schroeder de Witt et al
 
 ## Other Domains
 *Applications where multiple papers could not be grouped under a single heading.*
+
+- **Simulation-Based Inference of Cell Migration Dynamics in Complex Spatial Environments** [[bioRxiv]](https://www.biorxiv.org/content/10.1101/2025.09.25.678460v1)
+  Jonas Arruda, Emad Alamoudi, Robert Mueller, Marc Vaisband, Ronja Molkenbur, Jack Merrin, Eva Kiermaier, Jan Hasenauer
 
 - **Simulation-Based Inference of Ginzburg--Landau Parameters in Type--1.5 Superconductors** [[arXiv]](https://arxiv.org/abs/2512.02411)
   Jung-Shen Kao
