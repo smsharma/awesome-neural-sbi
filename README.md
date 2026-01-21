@@ -287,7 +287,7 @@ Patrick Cannon, Daniel Ward, Sebastian M. Schmon
 - **Towards Reliable Simulation-Based Inference with Balanced Neural Ratio Estimation** [[arXiv]](https://arxiv.org/abs/2208.13624)  
 Arnaud Delaunoy, Joeri Hermans, François Rozet, Antoine Wehenkel, Gilles Louppe
 
-- **Bayesian model comparison for simulation-based inference** [[arXiv]](https://arxiv.org/abs/2205.15784)  
+- **Bayesian model comparison for simulation-based inference** [[arXiv]](https://arxiv.org/abs/2207.04037)
 A. Spurio Mancini, M. M. Docherty, M. A. Price, J. D. McEwen
 
 - **Likelihood-Free Inference with Generative Neural Networks via Scoring Rule Minimization** [[arXiv]](https://arxiv.org/abs/2205.15784)  
@@ -574,14 +574,8 @@ Kyle Cranmer, Juan Pavez, Gilles Louppe
 - **Fisher's Mirage: Noise Tightening of Cosmological Constraints in Simulation-Based Inference** [[arXiv]](https://arxiv.org/abs/2406.06067)  
   Christopher Wilson, Rachel Bean
 
-- **Simulation-based Inference for Gravitational-waves from Intermediate-Mass Binary Black Holes in Real Noise** [[arXiv]](https://arxiv.org/abs/2406.03935)  
-  Vivien Raymond, Sama Al-Shammari, Alexandre Göttel
-
-- **Efficient Massive Black Hole Binary parameter estimation for LISA using Sequential Neural Likelihood** [[arXiv]](https://arxiv.org/abs/2406.00565)  
+- **Efficient Massive Black Hole Binary parameter estimation for LISA using Sequential Neural Likelihood** [[arXiv]](https://arxiv.org/abs/2406.00565)
   Iván Martín Vílchez, Carlos F. Sopuerta
-
-- **Simulation-based inference of radio millisecond pulsars in globular clusters** [[arXiv]](https://arxiv.org/abs/2405.15691)  
-  Joanna Berteaud, Christopher Eckner, Francesca Calore, Maïca Clavel, Daryl Haggard
 
 - **Dark Energy Survey Year 3 results: simulation-based cosmological inference with wavelet harmonics, scattering transforms, and moments of weak lensing mass maps II. Cosmological results** [[arXiv]](https://arxiv.org/abs/2405.10881)  
   M. Gatti, G. Campailla, N. Jeffrey, L. Whiteway, A. Porredon, J. Prat, J. Williamson, M. Raveri, B. Jain, V. Ajani, C. Zhou, J. Blazek, D. Anbajagane, S. Samuroff, T. Kacprzak, A. Alarcon, A. Amon, K. Bechtol, M. Becker, G. Bernstein, A. Campos, C. Chang, R. Chen
@@ -706,11 +700,8 @@ Chirag Modi, Oliver H. E. Philcox
 - **Simulation-based Inference for Exoplanet Atmospheric Retrieval: Insights from winning the Ariel Data Challenge 2023 using Normalizing Flows** [[arXiv]](https://arxiv.org/abs/2309.07954)  
 Mayeul Aubin et al
 
-- **Simulation-based inference for stochastic gravitational wave background data analysis** [[arXiv]](https://arxiv.org/abs/2309.09337)  
- James Alvey, Uddipta Bhardwaj, Valerie Domcke, Mauro Pieroni, Christoph Weniger
-
-- **What to do when things get crowded? Scalable joint analysis of overlapping gravitational wave signals** [[arXiv]](https://arxiv.org/abs/2308.06318)  
-James Alvey, Uddipta Bhardwaj, Samaya Nissanke, Christoph Weniger
+- **Simulation-based inference for stochastic gravitational wave background data analysis** [[arXiv]](https://arxiv.org/abs/2309.09337)
+  James Alvey, Uddipta Bhardwaj, Valerie Domcke, Mauro Pieroni, Christoph Weniger
 
 - **Neural Posterior Estimation with guaranteed exact coverage: the ringdown of GW150914** [[arXiv]](https://arxiv.org/abs/2305.18528)  
 Marco Crisostomi, Kallol Dey, Enrico Barausse, Roberto Trotta
@@ -837,10 +828,7 @@ Justin Alsing, Tom Charnock, Stephen Feeney, Benjamin Wandelt
 - **Advancing Tools for Simulation-Based Inference** [[arXiv]](https://arxiv.org/abs/2410.07315)
   Henning Bahl, Victor Bresó, Giovanni De Crescenzo, Tilman Plehn
 
-- **Constraining the Higgs Potential with Neural Simulation-based Inference for Di-Higgs Production** [[arXiv]](https://arxiv.org/abs/2405.15847)  
-  Radha Mastandrea, Benjamin Nachman, Tilman Plehn
-
-- **Constraining the Higgs Potential with Neural Simulation-based Inference for Di-Higgs Production** [[arXiv]](https://arxiv.org/abs/2405.15847)  
+- **Constraining the Higgs Potential with Neural Simulation-based Inference for Di-Higgs Production** [[arXiv]](https://arxiv.org/abs/2405.15847)
   Radha Mastandrea, Benjamin Nachman, Tilman Plehn
 
 - **Simulation-based inference in the search for CP violation in leptonic WH production** [[arXiv]](https://arxiv.org/abs/2308.02882)  
