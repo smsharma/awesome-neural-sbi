@@ -1,0 +1,18 @@
+cff-version: 1.2.0
+message: "If you use this resource, please cite it as below."
+authors:
+  - family-names: "Mishra-Sharma"
+    given-names: "Siddharth"
+title: "Awesome Neural SBI"
+abstract: "Community-sourced list of papers and resources on neural simulation-based inference, covering both methodological developments and domain applications."
+type: dataset
+keywords:
+  - simulation-based inference
+  - likelihood-free inference
+  - neural networks
+  - Bayesian inference
+  - machine learning
+license: MIT
+url: "https://github.com/smsharma/awesome-neural-sbi"
+repository-code: "https://github.com/smsharma/awesome-neural-sbi"
+date-released: 2023-01-20
