@@ -32,7 +32,7 @@ A community-sourced list of papers and resources on neural simulation-based infe
 
 - `sbi` [[Code]](https://github.com/mackelab/sbi) [[Docs]](https://www.mackelab.org/sbi/) [[Paper]](https://joss.theoj.org/papers/10.21105/joss.02505): General-purpose simulation-based inference toolkit.
 - `BayesFlow` [[Code]](https://github.com/stefanradev93/BayesFlow) [[Docs]](https://bayesflow.org/) [[Paper]](https://joss.theoj.org/papers/10.21105/joss.05702): Simulation-based inference framework with a focus on amortized Bayesian workflows.
-- `sbibm` [[Code]](https://github.com/sbi-benchmark/sbibm) [[Docs]](https://sbi-benchmark.github.io/) [[Paper]](https://arxiv.org/abs/2312.03824): Simulation-based inference benchmarking framework.
+- `sbibm` [[Code]](https://github.com/sbi-benchmark/sbibm) [[Docs]](https://sbi-benchmark.github.io/) [[Paper]](https://arxiv.org/abs/2101.04653): Simulation-based inference benchmarking framework.
 - `swyft` [[Code]](https://github.com/undark-lab/swyft) [[Docs]](https://swyft.readthedocs.io/en/latest/) [[Paper]](https://joss.theoj.org/papers/10.21105/joss.04205): Official implementation of Truncated Marginal Neural Ratio Estimation (TMNRE), a hyper-efficient, simulation-based inference technique for complex data and expensive simulators.
 - `NeuralEstimators.jl` [[Code]](https://github.com/msainsburydale/NeuralEstimators.jl) [[Docs]](https://msainsburydale.github.io/NeuralEstimators.jl/dev/): Amortized neural inference in Julia.
 - `SimulationBasedInference.jl` [[Code]](https://github.com/bgroenks96/SimulationBasedInference.jl) [[Docs]](https://bgroenks96.github.io/SimulationBasedInference.jl/dev/): Simulation-based inference in Julia.
